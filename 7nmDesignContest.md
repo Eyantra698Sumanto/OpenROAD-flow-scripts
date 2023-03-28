@@ -27,7 +27,7 @@
 ![image](https://user-images.githubusercontent.com/58599984/228318784-6d66e01f-953c-4f8b-95b7-022c0f16a582.png)
 
 ## Changes made in solver.cpp
-![image](https://user-images.githubusercontent.com/58599984/228325081-43e003e6-9736-45f6-b080-5c2b6200bb3b.png)
+![image](https://user-images.githubusercontent.com/58599984/228338100-e357c884-8731-41ab-96a8-e6cfcba29169.png)
 
 ### Improvement in the Place Stage timing
 ![image](https://user-images.githubusercontent.com/58599984/228324932-738966d1-c5aa-481c-849c-eb550c3a912e.png)
