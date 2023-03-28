@@ -32,7 +32,7 @@
 ### Improvement in the Placement Stage timing
 ![image](https://user-images.githubusercontent.com/58599984/228324932-738966d1-c5aa-481c-849c-eb550c3a912e.png)
 
-## Changes made in fftsg.cpp
+## Changes made in fftsg.cpp rdft function
 ![image](https://user-images.githubusercontent.com/58599984/228340068-a972819b-7efd-45c1-8b33-170c0901b5f5.png)
 
 ### Improvement in the Placement Stage timing
