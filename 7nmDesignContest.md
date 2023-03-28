@@ -6,5 +6,5 @@
 ![image](https://user-images.githubusercontent.com/58599984/228294893-6f5bfca1-6386-42da-9984-0972c6a86e2b.png)
 
 # Improvement in the Place Stage timing
-![image](https://user-images.githubusercontent.com/58599984/228293783-27900f04-34bc-46c4-a772-ada5ab9b3f2e.png)
+![image](https://user-images.githubusercontent.com/58599984/228300190-5390745f-affb-45b8-99f0-7465afaf3bba.png)
 
