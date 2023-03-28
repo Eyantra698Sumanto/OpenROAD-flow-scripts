@@ -1,0 +1,150 @@
+OpenROAD v2.0-6895-g5c85b36f8 
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+[WARNING STA-0164] ./platforms/asap7/lib/asap7sc7p5t_SIMPLE_RVT_FF_nldm_211120.lib.gz line 13178, timing group from output port.
+[WARNING STA-0164] ./platforms/asap7/lib/asap7sc7p5t_SIMPLE_RVT_FF_nldm_211120.lib.gz line 13211, timing group from output port.
+[WARNING STA-0164] ./platforms/asap7/lib/asap7sc7p5t_SIMPLE_RVT_FF_nldm_211120.lib.gz line 13244, timing group from output port.
+[WARNING STA-0164] ./platforms/asap7/lib/asap7sc7p5t_SIMPLE_RVT_FF_nldm_211120.lib.gz line 13277, timing group from output port.
+[WARNING STA-0164] ./platforms/asap7/lib/asap7sc7p5t_SIMPLE_RVT_FF_nldm_211120.lib.gz line 13310, timing group from output port.
+[WARNING STA-0164] ./platforms/asap7/lib/asap7sc7p5t_SIMPLE_RVT_FF_nldm_211120.lib.gz line 13343, timing group from output port.
+[WARNING STA-0164] ./platforms/asap7/lib/asap7sc7p5t_SIMPLE_RVT_FF_nldm_211120.lib.gz line 13376, timing group from output port.
+[WARNING STA-0164] ./platforms/asap7/lib/asap7sc7p5t_SIMPLE_RVT_FF_nldm_211120.lib.gz line 14772, timing group from output port.
+[WARNING STA-0164] ./platforms/asap7/lib/asap7sc7p5t_SIMPLE_RVT_FF_nldm_211120.lib.gz line 14805, timing group from output port.
+[WARNING STA-0164] ./platforms/asap7/lib/asap7sc7p5t_SIMPLE_RVT_FF_nldm_211120.lib.gz line 14838, timing group from output port.
+HierRTLMP Flow enabled...
+Call Macro Placer  -max_num_inst 30000 -min_num_inst 5000 -max_num_macro 30 -min_num_macro 4  -halo_width 10 -report_directory ./objects/asap7/swerv_wrapper/base/rtlmp
+area_weight_ = 0.1
+outline_weight_ = 100.0
+wirelength_weight_ = 100.0
+guidance_weight_ = 10.0
+fence_weight_ = 10.0
+boundary_weight_ = 20.0
+notch_weight_ = 10.0
+macro_blockage_weight_ = 10.0
+halo_width_ = 10.0
+Floorplan Outline: (0.0, 0.0) (550.0, 600.0),  Core Outline: (5, 5) (544, 594)
+Traversed logical hierarchy
+	Number of std cell instances : 109126
+	Area of std cell instances : 14927.77
+	Number of macros : 28
+	Area of macros : 26323.49
+	Total area : 41251.26
+	Design Utilization : 0.13
+	Core Utilization: 0.05
+
+num level: 2, max_macro: 300, min_macro: 40, max_inst:300000, min_inst:50000
+
+Create Data Flow
+
+Perform Clustering..
+
+Print Physical Hierachy Tree
+
+root  (0)  num_macro :  28   num_std_cell :  109126  macro_area :  26323.486  std_cell_area : 14927.7705
+
++---T0  (4)  num_macro :  0   num_std_cell :  0  macro_area :  0.0  std_cell_area : 0.0
+
++---T1  (5)  num_macro :  0   num_std_cell :  0  macro_area :  0.0  std_cell_area : 0.0
+
++---T2  (6)  num_macro :  0   num_std_cell :  0  macro_area :  0.0  std_cell_area : 0.0
+
++---B0  (10)  num_macro :  0   num_std_cell :  0  macro_area :  0.0  std_cell_area : 0.0
+
++---B1  (11)  num_macro :  0   num_std_cell :  0  macro_area :  0.0  std_cell_area : 0.0
+
++---B2  (12)  num_macro :  0   num_std_cell :  0  macro_area :  0.0  std_cell_area : 0.0
+
++---mem  (13)  num_macro :  28   num_std_cell :  2974  macro_area :  26323.486  std_cell_area : 301.57013
+
++---swerv/active_cg||swerv/free_cg||swerv/dbg  (15)  num_macro :  0   num_std_cell :  1924  macro_area :  0.0  std_cell_area : 274.978
+
++---swerv/dec  (17)  num_macro :  0   num_std_cell :  29855  macro_area :  0.0  std_cell_area : 4403.591
+
++---swerv/dma_ctrl  (18)  num_macro :  0   num_std_cell :  3553  macro_area :  0.0  std_cell_area : 515.34283
+
++---swerv/dmi_wrapper  (19)  num_macro :  0   num_std_cell :  499  macro_area :  0.0  std_cell_area : 73.92073
+
++---swerv/exu  (20)  num_macro :  0   num_std_cell :  18555  macro_area :  0.0  std_cell_area : 2492.1887
+
++---swerv/ifu  (22)  num_macro :  0   num_std_cell :  20564  macro_area :  0.0  std_cell_area : 2897.4277
+
++---swerv/lsu||swerv/pic_ctrl_inst  (23)  num_macro :  0   num_std_cell :  31130  macro_area :  0.0  std_cell_area : 3962.5693
+
++---(swerv)_glue_logic  (25)  num_macro :  0   num_std_cell :  72  macro_area :  0.0  std_cell_area : 6.181922
+
+
+Break mixed clusters into std cell and macro clusters.
+
+Print Physical Hierachy Tree after splitting std cell and macros in leaf clusters
+
+root  (0)  num_macro :  28   num_std_cell :  109126  macro_area :  26323.486  std_cell_area : 14927.7705
+
++---T0  (4)  num_macro :  0   num_std_cell :  0  macro_area :  0.0  std_cell_area : 0.0
+
++---T1  (5)  num_macro :  0   num_std_cell :  0  macro_area :  0.0  std_cell_area : 0.0
+
++---T2  (6)  num_macro :  0   num_std_cell :  0  macro_area :  0.0  std_cell_area : 0.0
+
++---B0  (10)  num_macro :  0   num_std_cell :  0  macro_area :  0.0  std_cell_area : 0.0
+
++---B1  (11)  num_macro :  0   num_std_cell :  0  macro_area :  0.0  std_cell_area : 0.0
+
++---B2  (12)  num_macro :  0   num_std_cell :  0  macro_area :  0.0  std_cell_area : 0.0
+
++---mem  (13)  num_macro :  28   num_std_cell :  2974  macro_area :  26323.486  std_cell_area : 301.57013
+
++---+---mem/Gen_dccm_enable_dccm/mem_bank_0__dccm_bank/mem||mem/Gen_dccm_enable_dccm/mem_bank_1__dccm_bank/mem||mem/Gen_dccm_enable_dccm/mem_bank_2__dccm_bank/mem||mem/Gen_dccm_enable_dccm/mem_bank_3__dccm_bank/mem||mem/Gen_dccm_enable_dccm/mem_bank_4__dccm_bank/mem||mem/Gen_dccm_enable_dccm/mem_bank_5__dccm_bank/mem||mem/Gen_dccm_enable_dccm/mem_bank_6__dccm_bank/mem||mem/Gen_dccm_enable_dccm/mem_bank_7__dccm_bank/mem  (26)  num_macro :  8   num_std_cell :  0  macro_area :  21464.6875  std_cell_area : 0.0
+
++---+---mem/icm/ic_data_inst/WAYS_0__SUBBANKS_0__ic_bank_sb_way_data/mem||mem/icm/ic_data_inst/WAYS_0__SUBBANKS_1__ic_bank_sb_way_data/mem||mem/icm/ic_data_inst/WAYS_0__SUBBANKS_2__ic_bank_sb_way_data/mem||mem/icm/ic_data_inst/WAYS_0__SUBBANKS_3__ic_bank_sb_way_data/mem||mem/icm/ic_data_inst/WAYS_1__SUBBANKS_0__ic_bank_sb_way_data/mem||mem/icm/ic_data_inst/WAYS_1__SUBBANKS_1__ic_bank_sb_way_data/mem||mem/icm/ic_data_inst/WAYS_1__SUBBANKS_2__ic_bank_sb_way_data/mem||mem/icm/ic_data_inst/WAYS_1__SUBBANKS_3__ic_bank_sb_way_data/mem||mem/icm/ic_data_inst/WAYS_2__SUBBANKS_0__ic_bank_sb_way_data/mem||mem/icm/ic_data_inst/WAYS_2__SUBBANKS_1__ic_bank_sb_way_data/mem||mem/icm/ic_data_inst/WAYS_2__SUBBANKS_2__ic_bank_sb_way_data/mem||mem/icm/ic_data_inst/WAYS_2__SUBBANKS_3__ic_bank_sb_way_data/mem||mem/icm/ic_data_inst/WAYS_3__SUBBANKS_0__ic_bank_sb_way_data/mem||mem/icm/ic_data_inst/WAYS_3__SUBBANKS_1__ic_bank_sb_way_data/mem||mem/icm/ic_data_inst/WAYS_3__SUBBANKS_2__ic_bank_sb_way_data/mem||mem/icm/ic_data_inst/WAYS_3__SUBBANKS_3__ic_bank_sb_way_data/mem  (34)  num_macro :  16   num_std_cell :  0  macro_area :  4678.2075  std_cell_area : 0.0
+
++---+---mem/icm/ic_tag_inst/WAYS_0__ICACHE_SZ_16_ic_way_tag/mem||mem/icm/ic_tag_inst/WAYS_1__ICACHE_SZ_16_ic_way_tag/mem||mem/icm/ic_tag_inst/WAYS_2__ICACHE_SZ_16_ic_way_tag/mem||mem/icm/ic_tag_inst/WAYS_3__ICACHE_SZ_16_ic_way_tag/mem  (50)  num_macro :  4   num_std_cell :  0  macro_area :  180.592  std_cell_area : 0.0
+
++---+---mem  (54)  num_macro :  0   num_std_cell :  2974  macro_area :  0.0  std_cell_area : 301.57013
+
++---swerv/active_cg||swerv/free_cg||swerv/dbg  (15)  num_macro :  0   num_std_cell :  1924  macro_area :  0.0  std_cell_area : 274.978
+
++---swerv/dec  (17)  num_macro :  0   num_std_cell :  29855  macro_area :  0.0  std_cell_area : 4403.591
+
++---swerv/dma_ctrl  (18)  num_macro :  0   num_std_cell :  3553  macro_area :  0.0  std_cell_area : 515.34283
+
++---swerv/dmi_wrapper  (19)  num_macro :  0   num_std_cell :  499  macro_area :  0.0  std_cell_area : 73.92073
+
++---swerv/exu  (20)  num_macro :  0   num_std_cell :  18555  macro_area :  0.0  std_cell_area : 2492.1887
+
++---swerv/ifu  (22)  num_macro :  0   num_std_cell :  20564  macro_area :  0.0  std_cell_area : 2897.4277
+
++---swerv/lsu||swerv/pic_ctrl_inst  (23)  num_macro :  0   num_std_cell :  31130  macro_area :  0.0  std_cell_area : 3962.5693
+
++---(swerv)_glue_logic  (25)  num_macro :  0   num_std_cell :  72  macro_area :  0.0  std_cell_area : 6.181922
+
+Determine shaping function for clusters -- Macro Tilings.
+
+Creating the pin blockage for root cluster
+Perform Multilevel macro placement...
+boundary_weight_updated_flag = false,  boundary_weight_ = 20.0
+[MultiLevelMacroPlacement] Working on children of cluster: root, Outline 5.022, 5.13  539.94604, 589.68
+
+Call Bus Planning for cluster: root
+
+boundary_weight_updated_flag = false,  boundary_weight_ = 20.0
+[MultiLevelMacroPlacement] Working on children of cluster: mem, Outline 5.022, 5.13  299.6902, 589.68
+[MultiLevelMacroPlacement] number of tracks per micro in total :  9.99999985098839
+[MultiLevelMacroPlacement] R width : 552.0, height : 0.41015625
+[MultiLevelMacroPlacement] Start Simulated Annealing Core
+
+[Hier-RTLMP::HardMacroClusterMacroPlacement] Place macros in cluster: mem/Gen_dccm_enable_dccm/mem_bank_0__dccm_bank/mem||mem/Gen_dccm_enable_dccm/mem_bank_1__dccm_bank/mem||mem/Gen_dccm_enable_dccm/mem_bank_2__dccm_bank/mem||mem/Gen_dccm_enable_dccm/mem_bank_3__dccm_bank/mem||mem/Gen_dccm_enable_dccm/mem_bank_4__dccm_bank/mem||mem/Gen_dccm_enable_dccm/mem_bank_5__dccm_bank/mem||mem/Gen_dccm_enable_dccm/mem_bank_6__dccm_bank/mem||mem/Gen_dccm_enable_dccm/mem_bank_7__dccm_bank/mem
+
+[Hier-RTLMP::HardMacroClusterMacroPlacement] Place macros in cluster: mem/icm/ic_data_inst/WAYS_0__SUBBANKS_0__ic_bank_sb_way_data/mem||mem/icm/ic_data_inst/WAYS_0__SUBBANKS_1__ic_bank_sb_way_data/mem||mem/icm/ic_data_inst/WAYS_0__SUBBANKS_2__ic_bank_sb_way_data/mem||mem/icm/ic_data_inst/WAYS_0__SUBBANKS_3__ic_bank_sb_way_data/mem||mem/icm/ic_data_inst/WAYS_1__SUBBANKS_0__ic_bank_sb_way_data/mem||mem/icm/ic_data_inst/WAYS_1__SUBBANKS_1__ic_bank_sb_way_data/mem||mem/icm/ic_data_inst/WAYS_1__SUBBANKS_2__ic_bank_sb_way_data/mem||mem/icm/ic_data_inst/WAYS_1__SUBBANKS_3__ic_bank_sb_way_data/mem||mem/icm/ic_data_inst/WAYS_2__SUBBANKS_0__ic_bank_sb_way_data/mem||mem/icm/ic_data_inst/WAYS_2__SUBBANKS_1__ic_bank_sb_way_data/mem||mem/icm/ic_data_inst/WAYS_2__SUBBANKS_2__ic_bank_sb_way_data/mem||mem/icm/ic_data_inst/WAYS_2__SUBBANKS_3__ic_bank_sb_way_data/mem||mem/icm/ic_data_inst/WAYS_3__SUBBANKS_0__ic_bank_sb_way_data/mem||mem/icm/ic_data_inst/WAYS_3__SUBBANKS_1__ic_bank_sb_way_data/mem||mem/icm/ic_data_inst/WAYS_3__SUBBANKS_2__ic_bank_sb_way_data/mem||mem/icm/ic_data_inst/WAYS_3__SUBBANKS_3__ic_bank_sb_way_data/mem
+
+[Hier-RTLMP::HardMacroClusterMacroPlacement] Place macros in cluster: mem/icm/ic_tag_inst/WAYS_0__ICACHE_SZ_16_ic_way_tag/mem||mem/icm/ic_tag_inst/WAYS_1__ICACHE_SZ_16_ic_way_tag/mem||mem/icm/ic_tag_inst/WAYS_2__ICACHE_SZ_16_ic_way_tag/mem||mem/icm/ic_tag_inst/WAYS_3__ICACHE_SZ_16_ic_way_tag/mem
+Align macros within the cluster mem
+boundary_h_th : 4.275, boundary_v_th : 25.2
+notch_h_th : 4.275, notch_v_th : 25.2
+Align macros within the cluster root
+boundary_h_th : 4.275, boundary_v_th : 25.2
+notch_h_th : 4.275, notch_v_th : 25.2
+number of updated macros : 28
+number of macros in HardMacroCluster : 28
+Delete buffers for RTLMP flow...
+[INFO RSZ-0026] Removed 0 buffers.
+Elapsed time: 0:36.88[h:]min:sec. CPU time: user 114.37 sys 0.37 (311%). Peak memory: 461256KB.
