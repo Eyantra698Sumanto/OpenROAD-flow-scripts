@@ -1,0 +1,18 @@
+PAR 0001 TPCoarsener.cpp:645       Hierarchical coarsening time {} seconds
+PAR 0002 TPMultilevel.cpp:203      Initial partitioning time = {} seconds
+PAR 0003 TPMultilevel.cpp:537      Initial partitioning time = {} seconds
+PAR 0004 TritonPart.cpp:1256       Total runtime {} seconds
+PAR 0005 TritonPart.cpp:1586       Total runtime {} seconds
+PAR 0006 TritonPart.cpp:988        Total runtime {} seconds
+PAR 0076 TPRefiner.cpp:1570        No best move found in PickMoveKWay
+PAR 0077 TPRefiner.cpp:1972        No gain found in Pass
+PAR 0400 autocluster.cpp:407       Floorplan has not been initialized? Pin location error.
+PAR 0401 autocluster.cpp:297       Buffer Net has more than two net connection...
+PAR 0402 autocluster.cpp:1787      Traversed logical hierarchy\n\tNumber of std cell instances: {}\n\tTotal area: {}\n\tNumber of hard macros: {}
+PAR 0403 autocluster.cpp:2035      Number of Clusters created: {}
+PAR 0413 autocluster.cpp:1954      Ignore keepin as it is outside floorplan bbox
+PAR 0488 autocluster.cpp:597       Could not find expected PAD instance
+PAR 0490 autocluster.cpp:1384      Number of hops:  {}
+PAR 0924 partitionmgr.tcl:58       Missing mandatory argument -hypergraph_file.
+PAR 2500 TritonPart.cpp:88         Can not open the input hypergraph file : {}
+PAR 2501 TritonPart.cpp:188        Can not open the fixed file : {}

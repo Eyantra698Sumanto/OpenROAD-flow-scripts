@@ -1,0 +1,9 @@
+{
+	"route__drc_errors__iter:1": 0,
+	"route__wirelength__iter:1": 2,
+	"route__drc_errors": 0,
+	"route__wirelength": 2,
+	"route__vias": 4,
+	"route__vias__singlecut": 4,
+	"route__vias__multicut": 0
+}

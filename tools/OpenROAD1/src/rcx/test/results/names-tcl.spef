@@ -1,0 +1,30 @@
+*SPEF "ieee 1481-1999"
+*DESIGN "top"
+*DATE "11:11:11 Fri 11 11, 1111"
+*VENDOR "OpenRCX"
+*PROGRAM "Parallel Extraction"
+*VERSION "1.0"
+*DESIGN_FLOW "NAME_SCOPE LOCAL" "PIN_CAP NONE"
+*DIVIDER /
+*DELIMITER :
+*BUS_DELIMITER []
+*T_UNIT 1 NS
+*C_UNIT 1 PF
+*R_UNIT 1 OHM
+*L_UNIT 1 HENRY
+
+*NAME_MAP
+*1 mid
+*2 b/disolved_block\/leaf
+*3 disolved_top\/leaf
+
+*D_NET *1 0.000199764
+*CONN
+*I *2:A I *D INV_X1
+*I *3:ZN O *D INV_X1
+*CAP
+1 *2:A 9.9882e-05
+2 *3:ZN 9.9882e-05
+*RES
+1 *3:ZN *2:A 34.2614 
+*END

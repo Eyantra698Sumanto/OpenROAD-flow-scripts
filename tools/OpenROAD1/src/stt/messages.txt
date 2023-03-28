@@ -1,0 +1,6 @@
+STT 0001 SteinerTreeBuilder.tcl:49 The alpha value must be between 0.0 and 1.0.
+STT 0002 SteinerTreeBuilder.tcl:72 set_routing_alpha: Wrong number of arguments.
+STT 0003 SteinerTreeBuilder.tcl:86 Nets for $cmd command were not found
+STT 0004 SteinerTreeBuilder.cpp:249 Net {} is connected to unplaced instance {}.
+STT 0005 SteinerTreeBuilder.cpp:268 Net {} is connected to unplaced pin {}.
+STT 0006 SteinerTreeBuilder.tcl:102 Clock nets for $cmd command were not found

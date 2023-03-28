@@ -1,0 +1,7 @@
+{
+	"design__instance__displacement__total": 23906.6,
+	"design__instance__displacement__mean": 0.699,
+	"design__instance__displacement__max": 4.09,
+	"route__wirelength__estimated": 652520,
+	"design__violations": 0
+}

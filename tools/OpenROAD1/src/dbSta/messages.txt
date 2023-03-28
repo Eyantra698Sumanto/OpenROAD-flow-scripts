@@ -1,0 +1,17 @@
+ORD 1001 dbNetwork.cc:951          LEF macro {} pin {} missing from liberty cell.
+ORD 1002 dbNetwork.cc:1068         Liberty cell {} pin {} missing from LEF macro.
+ORD 1003 dbNetwork.cc:1253         deletePin not implemented for dbITerm
+ORD 1004 dbNetwork.cc:1287         unimplemented network function mergeInto
+ORD 1005 dbNetwork.cc:1293         unimplemented network function mergeInto
+ORD 1006 dbNetwork.cc:1365         pin is not ITerm or BTerm
+ORD 1007 dbNetwork.cc:1433         unhandled port direction
+ORD 1008 dbNetwork.cc:1508         unknown master term type
+ORD 1009 dbReadVerilog.tcl:51      missing top_cell_name argument and no current_design.
+ORD 1010 dbReadVerilog.tcl:58      no technology has been read.
+ORD 1011 dbReadVerilog.cc:441      LEF master {} has no liberty cell.
+ORD 1012 dbReadVerilog.cc:451      Liberty cell {} has no LEF master.
+ORD 1013 dbReadVerilog.cc:314      instance {} LEF master {} not found.
+ORD 1014 dbReadVerilog.cc:295      hierachical instance creation failed for {} of {}
+ORD 1015 dbReadVerilog.cc:323      leaf instance creation failed for {} of {}
+ORD 1016 dbNetwork.cc:1333         instance is not Inst or ModInst
+STA 1000 dbSta.cc:628              instance {} swap master {} is not equivalent

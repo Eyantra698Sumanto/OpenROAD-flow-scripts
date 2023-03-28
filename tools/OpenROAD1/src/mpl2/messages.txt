@@ -1,0 +1,12 @@
+MPL 0001 mpl.tcl:78                No block found for Macro Placement.
+MPL 0002 hier_rtlmp.cpp:805        Floorplan has not been initialized? Pin location error for {}.
+MPL 0003 hier_rtlmp.cpp:2514       There are no valid tilings for mixed cluster: {}
+MPL 0004 hier_rtlmp.cpp:2737       This no valid tilings for hard macro cluser: {}
+MPL 0005 hier_rtlmp.cpp:3494       [MultiLevelMacroPlacement] Failed on cluster: {}
+MPL 0006 hier_rtlmp.cpp:3712       SA failed on cluster: {}
+MPL 0007 hier_rtlmp.cpp:3869       Not enough space in cluster: {} for child hard macro cluster: {}
+MPL 0008 hier_rtlmp.cpp:3892       Not enough space in cluster: {} for child mixed cluster: {}
+MPL 0009 hier_rtlmp.cpp:4042       Fail !!! Bus planning error !!!
+MPL 0010 hier_rtlmp.cpp:4232       Cannot find valid macro placement for hard macro cluster: {}
+MPL 0013 bus_synthesis.cpp:1117    bus planning - error condition nullptr
+MPL 0014 bus_synthesis.cpp:1131    bus planning - error condition pre_cluster

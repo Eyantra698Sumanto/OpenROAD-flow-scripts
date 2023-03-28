@@ -1,0 +1,31 @@
+VERSION 5.8 ;
+DIVIDERCHAR "/" ;
+BUSBITCHARS "[]" ;
+DESIGN counter ;
+UNITS DISTANCE MICRONS 1000 ;
+COMPONENTS 4 ;
+    - _i1_ AND2_X1 ;
+    - _i2_ AND2_X1 ;
+    - _i3_ OR2_X1 ;
+    - _r1_ DFF_X1 ;
+END COMPONENTS
+PINS 6 ;
+    - clk + NET clk + DIRECTION INPUT + USE SIGNAL ;
+    - inp1 + NET n1 + DIRECTION INPUT + USE SIGNAL ;
+    - inp2 + NET n2 + DIRECTION INPUT + USE SIGNAL ;
+    - inp3 + NET n3 + DIRECTION INPUT + USE SIGNAL ;
+    - inp4 + NET n4 + DIRECTION INPUT + USE SIGNAL ;
+    - out1 + NET n8 + DIRECTION OUTPUT + USE SIGNAL ;
+END PINS
+NETS 9 ;
+    - clk ( PIN clk ) ( _r1_ CK ) + USE CLOCK ;
+    - n1 ( PIN inp1 ) ( _i1_ A1 ) + USE SIGNAL ;
+    - n2 ( PIN inp2 ) ( _i1_ A2 ) + USE SIGNAL ;
+    - n3 ( PIN inp3 ) ( _i2_ A1 ) + USE SIGNAL ;
+    - n4 ( PIN inp4 ) ( _i2_ A2 ) + USE SIGNAL ;
+    - n5 ( _i1_ ZN ) ( _i3_ A1 ) + USE SIGNAL ;
+    - n6 ( _i2_ ZN ) ( _i3_ A2 ) + USE SIGNAL ;
+    - n7 ( _i3_ ZN ) ( _r1_ D ) + USE SIGNAL ;
+    - n8 ( PIN out1 ) ( _r1_ Q ) + USE SIGNAL ;
+END NETS
+END DESIGN

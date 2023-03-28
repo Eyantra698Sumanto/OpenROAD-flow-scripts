@@ -1,0 +1,7 @@
+1
+Running 1 test case...
+[INFO UTL-0006] ScopedTemporaryFile; fd: 3 path: /tmp/openroad_CFileUtilsTest_D6wd5D
+
+[1;32;49m*** No errors detected
+[0;39;49m
+pass

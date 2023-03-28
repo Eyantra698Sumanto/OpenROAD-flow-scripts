@@ -1,0 +1,81 @@
+CTS 0001 TritonCTS.cpp:144         Running TritonCTS with user-specified clock roots: {}.
+CTS 0003 TritonCTS.cpp:345         Total number of Clock Roots: {}.
+CTS 0004 TritonCTS.cpp:349         Total number of Buffers Inserted: {}.
+CTS 0005 TritonCTS.cpp:353         Total number of Clock Subnets: {}.
+CTS 0006 TritonCTS.cpp:357         Total number of Sinks: {}.
+CTS 0007 TritonCTS.cpp:463         Net \"{}\" found for clock \"{}\".
+CTS 0008 TritonCTS.cpp:485         TritonCTS found {} clock nets.
+CTS 0010 TritonCTS.cpp:568          Clock net \"{}\" has {} sinks.
+CTS 0012 TritonCTS.cpp:709             Minimum number of buffers in the clock path: {}.
+CTS 0013 TritonCTS.cpp:711             Maximum number of buffers in the clock path: {}.
+CTS 0014 TritonCTS.cpp:715             {} clock nets were removed/fixed.
+CTS 0015 TritonCTS.cpp:719             Created {} clock nets.
+CTS 0016 TritonCTS.cpp:728             Fanout distribution for the current clock = {}.
+CTS 0017 TritonCTS.cpp:732             Max level of the clock tree: {}.
+CTS 0018 TritonCTS.cpp:827             Created {} clock buffers.
+CTS 0019 HTreeBuilder.cpp:156       Total number of sinks after clustering: {}.
+CTS 0020 HTreeBuilder.cpp:168       Wire segment unit: {}  dbu ({} um).
+CTS 0021 HTreeBuilder.cpp:177       Distance between buffers: {} units ({} um).
+CTS 0022 HTreeBuilder.cpp:185       Branch length for Vertex Buffer: {} units ({} um).
+CTS 0023 HTreeBuilder.cpp:205       Original sink region: {}.
+CTS 0024 HTreeBuilder.cpp:222       Normalized sink region: {}.
+CTS 0025 HTreeBuilder.cpp:223          Width:  {:.4f}.
+CTS 0026 HTreeBuilder.cpp:224          Height: {:.4f}.
+CTS 0027 HTreeBuilder.cpp:229      Generating H-Tree topology for net {}.
+CTS 0028 HTreeBuilder.cpp:231       Total number of sinks: {}.
+CTS 0029 HTreeBuilder.cpp:237       Sinks will be clustered in groups of up to {} and with maximum cluster diameter of {:.1f} um.
+CTS 0030 HTreeBuilder.cpp:245       Number of static layers: {}.
+CTS 0031 HTreeBuilder.cpp:267       Stop criterion found. Min length of sink region is ({}).
+CTS 0032 HTreeBuilder.cpp:279       Stop criterion found. Max number of sinks is {}.
+CTS 0034 HTreeBuilder.cpp:358          Segment length (rounded): {}.
+CTS 0035 HTreeBuilder.cpp:864       Number of sinks covered: {}.
+CTS 0038 TechChar.cpp:1168         Number of created patterns = {}.
+CTS 0039 TechChar.cpp:1186         Number of created patterns = {}.
+CTS 0040 TritonCTS.cpp:472         Net was not found in the design for {}, please check. Skipping...
+CTS 0041 TritonCTS.cpp:556         Net \"{}\" has {} sinks. Skipping...
+CTS 0042 TritonCTS.cpp:563         Net \"{}\" has no sinks. Skipping...
+CTS 0043 TechChar.cpp:137          {} wires are pure wire and no slew degradation.\nTritonCTS forced slew degradation on these wires.
+CTS 0045 TechChar.cpp:388          Creating fake entries in the LUT.
+CTS 0046 TechChar.cpp:144              Number of wire segments: {}.
+CTS 0047 TechChar.cpp:146              Number of keys in characterization LUT: {}.
+CTS 0048 TechChar.cpp:151              Actual min input cap: {}.
+CTS 0049 TechChar.cpp:510          Characterization buffer is: {}.
+CTS 0055 TritonCTS.tcl:151         Missing argument -buf_list
+CTS 0056 TritonCTS.tcl:163         Error when finding -clk_nets in DB.
+CTS 0057 TritonCTS.tcl:184         Missing argument, user must enter at least one of -root_buf or -buf_list.
+CTS 0058 SinkClustering.cpp:150    Invalid parameters in {}.
+CTS 0065 TechChar.cpp:182          Normalized values in the LUT should be in the range [1, {}\n    Check the table above to see the normalization ranges and your     characterization configuration.
+CTS 0073 TechChar.cpp:462          Buffer not found. Check your -buf_list input.
+CTS 0074 TechChar.cpp:467          Buffer {} not found. Check your -buf_list input.
+CTS 0075 TechChar.cpp:572          Error generating the wirelengths to test.\n    Check the -wire_unit parameter or the technology files.
+CTS 0076 TechChar.cpp:616          No Liberty cell found for {}.
+CTS 0078 TechChar.cpp:643          Error generating the wirelengths to test.\n    Check the parameters -max_cap/-max_slew/-cap_inter/-slew_inter\n          or the technology files.
+CTS 0079 HTreeBuilder.cpp:109      Sink not found.
+CTS 0080 HTreeBuilder.cpp:856      Sink not found.
+CTS 0081 TritonCTS.cpp:129         Buffer {} is not in the loaded DB.
+CTS 0082 TritonCTS.cpp:94          No valid clock nets in the design.
+CTS 0083 TritonCTS.cpp:482         No clock nets have been found.
+CTS 0084 TechChar.cpp:82           Compiling LUT.
+CTS 0087 TritonCTS.cpp:331         Could not open output metric file {}.
+CTS 0090 HTreeBuilder.cpp:234       Sinks will be clustered based on buffer max cap.
+CTS 0093 LevelBalancer.cpp:52      Fixing tree levels for max depth {}
+CTS 0095 TritonCTS.cpp:461         Net \"{}\" found.
+CTS 0096 TechChar.cpp:593          No Liberty cell found for {}.
+CTS 0097 TritonCTS.cpp:135         Characterization used {} buffer(s) types.
+CTS 0098 TritonCTS.cpp:306         Clock net \"{}\"
+CTS 0099 TritonCTS.cpp:307          Sinks {}
+CTS 0100 TritonCTS.cpp:308          Leaf buffers {}
+CTS 0101 TritonCTS.cpp:310          Average sink wire length {:.2f} um
+CTS 0102 TritonCTS.cpp:311          Path depth {} - {}
+CTS 0103 TritonCTS.tcl:199         No design block found.
+CTS 0104 TechChar.cpp:442          Clock wire resistance/capacitance values are zero.\nUse set_wire_rc to set them.
+CTS 0105 TritonCTS.cpp:537         Net \"{}\" already has clock buffer {}. Skipping...
+CTS 0106 TechChar.cpp:474          No Liberty found for buffer {}.
+CTS 0107 TechChar.cpp:603          No max slew found for cell {}.
+CTS 0108 TechChar.cpp:610          No max capacitance found for cell {}.
+CTS 0111 TechChar.cpp:494          No max capacitance found for cell {}.
+CTS 0113 TechChar.cpp:504          Characterization buffer is not defined.\n    Check that -buf_list has supported buffers from platform.
+CTS 0114 TritonCTS.cpp:445         Clock {} overlaps a previous clock.
+CTS 0534 TechChar.cpp:528          Could not find buffer input port for {}.
+CTS 0541 TechChar.cpp:533          Could not find buffer output port for {}.
+GRT 0115 TritonCTS.tcl:99          -post_cts_disable is obsolete.

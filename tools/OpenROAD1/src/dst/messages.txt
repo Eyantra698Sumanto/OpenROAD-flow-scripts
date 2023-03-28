@@ -1,0 +1,28 @@
+DST 0001 Distributed.cc:90         Worker server error: {}
+DST 0002 Distributed.tcl:42        -host is required in run_worker cmd.
+DST 0003 Distributed.tcl:47        -port is required in run_worker cmd.
+DST 0004 WorkerConnection.cc:110   Worker conhandler failed with message: \"{}\"
+DST 0005 WorkerConnection.cc:100   Unsupported job type {} from port {}
+DST 0006 BalancerConnection.cc:101 No workers available
+DST 0007 LoadBalancer.cc:43        Processed {} jobs
+DST 0008 BalancerConnection.cc:228 Balancer conhandler failed with message: {}
+DST 0009 Distributed.cc:106        LoadBalancer error: {}
+DST 0010 Distributed.tcl:66        -host is required in run_load_balancer cmd.
+DST 0011 Distributed.tcl:71        -port is required in run_load_balancer cmd.
+DST 0012 Distributed.cc:218        Serializing JobMessage failed
+DST 0013 Distributed.cc:228        Socket connection failed with message \"{}\"
+DST 0014 Distributed.cc:258        Sending job failed with message \"{}\"
+DST 0016 Distributed.tcl:91        -host is required in add_worker_address cmd.
+DST 0017 Distributed.tcl:96        -port is required in add_worker_address cmd.
+DST 0020 Distributed.cc:267        Serializing result JobMessage failed
+DST 0022 Distributed.cc:276        Sending result failed with message \"{}\"
+DST 0041 WorkerConnection.cc:78    Received malformed msg {} from port {}
+DST 0042 BalancerConnection.cc:86  Received malformed msg {} from port {}
+DST 0112 Distributed.cc:162        Serializing JobMessage failed
+DST 0113 Distributed.cc:172        Trial {}, socket connection failed with message \"{}\"
+DST 0114 Distributed.cc:193        Sending job failed with message \"{}\"
+DST 0203 LoadBalancer.cc:188       Workers domain resolution failed with error code = {}. Message = {}.
+DST 0204 BalancerConnection.cc:135 Exception thrown: {}. worker with ip \"{}\" and port \"{}\" will be pushed back the queue.
+DST 0205 BalancerConnection.cc:145 Maximum of {} failing workers reached, relaying error to leader.
+DST 0207 BalancerConnection.cc:207 {} workers failed to receive the broadcast message and have been removed.
+DST 9999 Distributed.cc:246        Problem in deserialize {}

@@ -1,0 +1,21 @@
+IFP 0001 InitFloorplan.cc:379      Added {} rows of {} sites.
+IFP 0009 InitFloorplan.cc:202      SITE {} not found.
+IFP 0010 InitFloorplan.tcl:155     layer $layer_name not found.
+IFP 0011 InitFloorplan.tcl:55      use -site to add placement rows.
+IFP 0013 InitFloorplan.tcl:76      -core_space is either a list of 4 margins or one value for all margins.
+IFP 0015 InitFloorplan.tcl:99      -die_area is a list of 4 coordinates.
+IFP 0016 InitFloorplan.tcl:111     -core_area is a list of 4 coordinates.
+IFP 0017 InitFloorplan.tcl:127     no -core_area specified.
+IFP 0019 InitFloorplan.tcl:130     no -utilization or -die_area specified.
+IFP 0021 InitFloorplan.cc:502      Track pattern for {} will be skipped due to x_offset > die width.
+IFP 0022 InitFloorplan.cc:510      Track pattern for {} will be skipped due to y_offset > die height.
+IFP 0025 InitFloorplan.tcl:158     layer $layer_name is not a routing layer.
+IFP 0026 InitFloorplan.cc:282      left core row: {} has less than 10 sites
+IFP 0027 InitFloorplan.cc:313      right core row: {} has less than 10 sites
+IFP 0028 InitFloorplan.cc:187      Core area lower left ({:.3f}, {:.3f}) snapped to ({:.3f}, {:.3f}).
+IFP 0029 InitFloorplan.cc:432      Unable to determine tiecell ({}) function.
+IFP 0030 InitFloorplan.cc:457      Inserted {} tiecells using {}/{}.
+IFP 0031 InitFloorplan.tcl:224     Unable to find master: $tie_cell
+IFP 0032 InitFloorplan.tcl:229     Unable to find master pin: $args
+IFP 0038 InitFloorplan.i:61        No design is loaded.
+IFP 0039 InitFloorplan.cc:416      Liberty cell or port {}/{} not found.

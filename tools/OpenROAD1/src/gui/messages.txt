@@ -1,0 +1,73 @@
+GUI 0001 gui.i:47                  Command {} is not usable in non-GUI mode
+GUI 0002 gui.i:53                  No database loaded
+GUI 0003 gui.i:64                  No database loaded
+GUI 0005 gui.i:68                  No chip loaded
+GUI 0006 gui.i:72                  No block loaded
+GUI 0007 gui.i:337                 Unknown display control type: {}
+GUI 0008 gui.cpp:1077              GUI already active.
+GUI 0009 gui.i:360                 Unknown display control type: {}
+GUI 0010 gui_utils.cpp:71          File path does not end with a valid extension, new path is: {}
+GUI 0011 gui_utils.cpp:121         Failed to write image: {}
+GUI 0012 gui_utils.cpp:126         Image size is not valid: {}px x {}px
+GUI 0013 displayControls.cpp:1029  Unable to find {} display control at {}.
+GUI 0014 displayControls.cpp:1050  Unable to find {} display control at {}.
+GUI 0015 gui.cpp:609               No design loaded.
+GUI 0016 gui.cpp:642               No design loaded.
+GUI 0017 gui.tcl:119               No technology loaded.
+GUI 0018 gui.tcl:132               Area must contain 4 elements.
+GUI 0019 gui.tcl:279               Display option must have 2 elements {control name} {value}.
+GUI 0020 gui.tcl:48                The -text argument must be specified.
+GUI 0021 gui.tcl:53                The -script argument must be specified.
+GUI 0022 mainWindow.cpp:665        Button {} already defined.
+GUI 0023 mainWindow.cpp:1132       Failed to open help automatically, navigate to: {}
+GUI 0024 mainWindow.cpp:969        Ruler with name \"{}\" already exists
+GUI 0025 mainWindow.cpp:756        Menu action {} already defined.
+GUI 0026 gui.tcl:79                The -text argument must be specified.
+GUI 0027 gui.tcl:84                The -script argument must be specified.
+GUI 0028 gui.cpp:747               {} is not a known map. Valid options are: {}
+GUI 0029 gui.cpp:775               {} is not a valid option. Valid options are: {}
+GUI 0030 drcWidget.cpp:524         Unable to open TritonRoute DRC report: {}
+GUI 0031 gui.tcl:124               Resolution too high for design, defaulting to [expr $resolution / [$tech getLefUnits]] um per pixel
+GUI 0032 drcWidget.cpp:507         Unable to determine type of {}
+GUI 0033 gui.cpp:290               No descriptor is registered for {}.
+GUI 0034 displayControls.cpp:1062  Found {} controls matching {} at {}.
+GUI 0035 gui.cpp:470               Unable to find descriptor for: {}
+GUI 0036 gui.i:497                 Nothing selected
+GUI 0037 gui.i:503                 Unknown property: {}
+GUI 0038 gui.tcl:160               Must specify -type.
+GUI 0039 gui.tcl:176               Cannot use case insensitivity without a name.
+GUI 0040 drcWidget.cpp:601         Unable to find tech layer (line: {}): {}
+GUI 0041 drcWidget.cpp:695         Unable to find bterm (line: {}): {}
+GUI 0042 drcWidget.cpp:684         Unable to find iterm (line: {}): {}
+GUI 0043 drcWidget.cpp:673         Unable to find instance (line: {}): {}
+GUI 0044 drcWidget.cpp:662         Unable to find net (line: {}): {}
+GUI 0045 drcWidget.cpp:555         Unable to parse line as violation type (line: {}): {}
+GUI 0046 drcWidget.cpp:570         Unable to parse line as violation source (line: {}): {}
+GUI 0047 drcWidget.cpp:590         Unable to parse line as violation location (line: {}): {}
+GUI 0048 drcWidget.cpp:620         Unable to parse bounding box (line: {}): {}
+GUI 0049 drcWidget.cpp:626         Unable to parse bounding box (line: {}): {}
+GUI 0050 drcWidget.cpp:633         Unable to parse bounding box (line: {}): {}
+GUI 0051 drcWidget.cpp:722         Unknown source type (line: {}): {}
+GUI 0052 drcWidget.cpp:716         Unable to find obstruction (line: {})
+GUI 0053 gui.cpp:995               Unable to find descriptor for: {}
+GUI 0054 displayControls.cpp:754   Unknown data type for \"{}\".
+GUI 0055 drcWidget.cpp:762         Unable to parse JSON file {}: {}
+GUI 0056 drcWidget.cpp:798         Unable to parse violation shape: {}
+GUI 0057 displayControls.cpp:677   Unknown data type \"{}\" for \"{}\".
+GUI 0060 gui.cpp:794               {} must be a boolean
+GUI 0061 gui.cpp:803               {} must be an integer or double
+GUI 0062 gui.cpp:812               {} must be an integer or double
+GUI 0063 gui.cpp:819               {} must be a string
+GUI 0064 gui.cpp:622               No design loaded.
+GUI 0065 gui.cpp:627               No design loaded.
+GUI 0066 heatMap.cpp:527           Heat map \"{}\" has not been populated with data.
+GUI 0067 gui.tcl:210               Design not loaded.
+GUI 0068 gui.tcl:219               Pin not found.
+GUI 0069 gui.tcl:222               Multiple pin timing cones are not supported.
+GUI 0070 gui.tcl:253               Design not loaded.
+GUI 0071 gui.tcl:260               Unable to find net \"$net_name\".
+GUI 0072 heatMap.cpp:93            \"{}\" is not populated with data.
+GUI 0073 heatMap.cpp:98            Unable to open {}
+GUI 0074 clockWidget.cpp:1421      Unable to find clock: {}
+GUI 0076 mainWindow.cpp:1480       Unknown filetype: {}
+GUI 0077 mainWindow.cpp:1474       Timing data is not stored in {} and must be loaded separately, if needed.

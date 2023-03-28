@@ -1,0 +1,10 @@
+FIN 0001 DensityFill.cpp:180       Layer {} in names was not found.
+FIN 0002 DensityFill.cpp:191       Layer {} not found.
+FIN 0003 DensityFill.cpp:446       Filling layer {}.
+FIN 0004 DensityFill.cpp:484       Total fills: {}.
+FIN 0005 DensityFill.cpp:503       Filling {} areas with OPC fill.
+FIN 0006 DensityFill.cpp:509       Total fills: {}.
+FIN 0007 finale.tcl:49             The -rules argument must be specified.
+FIN 0008 finale.tcl:55             The -area argument must be a list of 4 coordinates.
+FIN 0009 DensityFill.cpp:471       Filling {} areas with non-OPC fill.
+FIN 0010 DensityFill.cpp:529       Skipping layer {}.

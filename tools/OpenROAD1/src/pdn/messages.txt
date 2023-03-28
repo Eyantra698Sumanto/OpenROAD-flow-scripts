@@ -1,0 +1,103 @@
+PAD 0225 pdn.tcl:340               Unable to find net $net_name.
+PAD 0226 pdn.tcl:463               Unable to find net $net_name.
+PDN 0001 grid.cpp:138              Inserting grid: {}
+PDN 0100 domain.cpp:257            Unable to find {} net for {} domain.
+PDN 0101 domain.cpp:279            Using {} as power net for {} domain.
+PDN 0102 domain.cpp:288            Using {} as ground net for {} domain.
+PDN 0103 domain.cpp:84             {} region must have a shape.
+PDN 0104 domain.cpp:87             {} region contains {} shapes, but only one is supported.
+PDN 0105 rings.cpp:126             Unable to determine location of pad offset, using die boundary instead.
+PDN 0106 grid_component.cpp:366    Width ({:.4f} um) specified for layer {} is less than minimum width ({:.4f} um).
+PDN 0107 grid_component.cpp:378    Width ({:.4f} um) specified for layer {} is greater than maximum width ({:.4f} um).
+PDN 0108 grid_component.cpp:447    Spacing ({:.4f} um) specified for layer {} is less than minimum spacing ({:.4f} um).
+PDN 0109 straps.cpp:479            Unable to determine width of followpin straps from standard cells.
+PDN 0110 via.cpp:959               No via inserted between {} and {} at {} on {}
+PDN 0114 grid_component.cpp:426    Width ({:.4f} um) specified for layer {} in not a valid width, must be {}.
+PDN 0175 straps.cpp:108            Pitch {:.4f} is too small for, must be atleast {:.4f}
+PDN 0178 straps.cpp:2011           Remaining channel {} on {} for nets: {}
+PDN 0179 straps.cpp:2020           Unable to repair all channels.
+PDN 0180 rings.cpp:66              Ring cannot be build with layers following the same direction: {}
+PDN 0181 domain.cpp:264            Found multiple possible nets for {} net for {} domain.
+PDN 0182 PdnGen.cc:459             Instance {} already belongs to another grid \"{}\" and therefore cannot belong to \"{}\".
+PDN 0183 PdnGen.cc:289             Replacing existing core voltage domain.
+PDN 0184 PdnGen.cc:310             Cannot have region voltage domain with the same name already exists: {}
+PDN 0185 straps.cpp:133            Insufficient width ({} um) to add straps on layer {} in grid \"{}\
+          "with total strap width {} um and offset {} um.
+PDN 0186 grid.cpp:120              Connect between layers {} and {} already exists in \"{}\".
+PDN 0187 straps.cpp:88             Unable to place strap on {} with unknown routing direction.
+PDN 0188 grid.cpp:1499             Existing grid does not support adding {}.
+PDN 0189 PdnGen.cc:803             Supply pin {} of instance {} is not connected to any net.
+PDN 0190 straps.cpp:353            Unable to determine the pitch of the rows.
+PDN 0191 techlayer.cpp:148         {} of {:.4f} does not fit the manufacturing grid of {:.4f}.
+PDN 0192 grid.cpp:594              There are multiple ({}) followpin definitions in {}, but no connect statements between them.
+PDN 0193 grid.cpp:602              There are only ({}) followpin connect statements when {} is/are required.
+PDN 0194 grid.cpp:626              Connect statements for followpins overlap between layers: {} -> {} and {} -> {}
+PDN 0195 via.cpp:2863              Removing {} via(s) between {} and {} at ({:.4f} um, {:.4f} um) for {}
+PDN 0196 PdnGen.cc:343             {} is already defined.
+PDN 0197 power_cells.cpp:155       Unrecognized network type: {}
+PDN 0198 power_cells.cpp:125       {} requires the power cell to have an acknowledge pin.
+PDN 0199 pdn.tcl:153               Net $switched_power_net_name already exists in the design, but is of signal type [$switched_power getSigType].
+PDN 0220 power_cells.cpp:249       Unable to find a strap to connect power switched to.
+PDN 0221 power_cells.cpp:302       Instance {} should be {}, but is {}.
+PDN 0222 power_cells.cpp:238       Power switch insertion has already run. To reset use -ripup option.
+PDN 0223 power_cells.cpp:330       Unable to insert power switch ({}) at ({:.4f}, {:.4f}), due to lack of available rows.
+PDN 0224 grid_component.cpp:473    {} is not a net in {}.
+PDN 0226 via_repair.cpp:134        {} contains block vias to be removed, which is not supported.
+PDN 0227 via.cpp:881               Removing between {} and {} at ({:.4f} um, {:.4f} um) for {}
+PDN 0228 PdnGen.cc:686             Unable to open \"{}\" to write.
+PDN 0229 PdnGen.cc:306             Region must be specified.
+PDN 1001 pdn.tcl:99                The -power argument is required.
+PDN 1002 pdn.tcl:103               Unable to find power net: $keys(-power)
+PDN 1003 pdn.tcl:108               The -ground argument is required.
+PDN 1004 pdn.tcl:112               Unable to find ground net: $keys(-ground)
+PDN 1005 pdn.tcl:121               Unable to find region: $keys(-region)
+PDN 1006 pdn.tcl:136               Unable to find secondary power net: $snet
+PDN 1007 pdn.tcl:290               The -layer argument is required.
+PDN 1008 pdn.tcl:295               The -width argument is required.
+PDN 1009 pdn.tcl:301               The -pitch argument is required.
+PDN 1010 pdn.tcl:354               Options -extend_to_core_ring and -extend_to_boundary are mutually exclusive.
+PDN 1011 pdn.tcl:416               The -layers argument is required.
+PDN 1012 pdn.tcl:420               Expecting a list of 2 elements for -layers option of add_pdn_ring command, found [llength $keys(-layers)].
+PDN 1013 pdn.tcl:424               The -widths argument is required.
+PDN 1014 pdn.tcl:430               The -spacings argument is required.
+PDN 1015 pdn.tcl:436               Only one of -pad_offsets or -core_offsets can be specified.
+PDN 1016 pdn.tcl:438               One of -pad_offsets or -core_offsets must be specified.
+PDN 1017 pdn.tcl:450               Only one of -pad_offsets or -core_offsets can be specified.
+PDN 1019 pdn.tcl:554               The -layers argument is required.
+PDN 1020 pdn.tcl:556               The -layers must contain two layers.
+PDN 1021 pdn.tcl:592               Unable to find via: $via
+PDN 1022 pdn.tcl:705               Design must be loaded before calling $args.
+PDN 1023 pdn.tcl:719               Unable to find $name layer.
+PDN 1024 pdn.tcl:728               $key has been deprecated$use
+PDN 1025 pdn.tcl:749               -name is required
+PDN 1026 pdn.tcl:840               Options -grid_over_pg_pins and -grid_over_boundary are mutually exclusive.
+PDN 1027 pdn.tcl:856               Options -instances, -cells, and -default are mutually exclusive.
+PDN 1028 pdn.tcl:858               Either -instances, -cells, or -default must be specified.
+PDN 1029 pdn.tcl:867               -name is required
+PDN 1030 pdn.tcl:909               Unable to find instance: $inst_pattern
+PDN 1032 pdn.tcl:960               Unable to find $name domain.
+PDN 1033 pdn.tcl:1007              Argument $arg must consist of 1 or 2 entries.
+PDN 1034 pdn.tcl:1020              Argument $arg must consist of 1, 2 or 4 entries.
+PDN 1035 pdn.tcl:1039              Unknown -starts_with option: $value
+PDN 1036 pdn.tcl:1062              Invalid orientation $orient specified, must be one of [join $valid_orientations {, }].
+PDN 1037 pdn.tcl:49                -reset flag is mutually exclusive to all other flags
+PDN 1038 pdn.tcl:56                -ripup flag is mutually exclusive to all other flags
+PDN 1039 pdn.tcl:63                -report_only flag is mutually exclusive to all other flags
+PDN 1040 pdn.tcl:1357              File $config does not exist.
+PDN 1041 pdn.tcl:1360              File $config is empty.
+PDN 1042 pdn.tcl:160               Core voltage domain will be named \"Core\".
+PDN 1043 pdn.tcl:753               Grid named \"$keys(-name)\" already defined.
+PDN 1044 pdn.tcl:870               Grid named \"$keys(-name)\" already defined.
+PDN 1045 pdn.tcl:783               -power_control must be specified with -power_switch_cell
+PDN 1046 pdn.tcl:224               Unable to find power switch cell master: $keys(-name)
+PDN 1047 pdn.tcl:1046              Unable to find $term on $master
+PDN 1048 pdn.tcl:779               Switched power cell $keys(-power_switch_cell) is not defined.
+PDN 1049 pdn.tcl:787               Unable to find power control net: $keys(-power_control)
+PDN 1183 pdn.tcl:220               The -name argument is required.
+PDN 1184 pdn.tcl:229               The -control argument is required.
+PDN 1186 pdn.tcl:240               The -power_switchable argument is required.
+PDN 1187 pdn.tcl:246               The -power argument is required.
+PDN 1188 pdn.tcl:252               The -ground argument is required.
+PDN 1190 pdn.tcl:660               Unable to find net: $keys(-net)
+PDN 1191 pdn.tcl:650               Cannot use both -net and -all arguments.
+PDN 1192 pdn.tcl:653               Must use either -net or -all arguments.

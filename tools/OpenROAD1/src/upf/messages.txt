@@ -1,0 +1,29 @@
+ODB 9315 upf.tcl:288               -area is a list of 4 coordinates
+ODB 9316 upf.tcl:296               please define area
+UPF 10001 upf.cpp:54                Creation of '%s' power domain failed
+UPF 10002 upf.cpp:70                Couldn't retrieve power domain '%s' while adding element '%s'
+UPF 10003 upf.cpp:88                Creation of '%s' logic port failed
+UPF 10004 upf.cpp:103               Couldn't retrieve power domain '%s' while creating power switch '%s'
+UPF 10005 upf.cpp:114               Creation of '%s' power switch failed
+UPF 10006 upf.cpp:132               Couldn't retrieve power switch '%s' while adding control port '%s'
+UPF 10007 upf.cpp:152               Couldn't retrieve power switch '%s' while adding on state '%s'
+UPF 10008 upf.cpp:177               Couldn't retrieve power domain '%s' while creating/updating isolation '%s'
+UPF 10009 upf.cpp:188               Couldn't update a non existing isolation %s
+UPF 10010 upf.cpp:233               Couldn't retrieve power domain '%s' while updating isolation '%s'
+UPF 10011 upf.cpp:244               Couldn't find isolation %s
+UPF 10012 upf.cpp:264               Couldn't retrieve power domain '%s' while updating its area 
+UPF 10013 upf.cpp:334               isolation cell has no enable port
+UPF 10014 upf.cpp:353               unknown isolation cell function
+UPF 10015 upf.cpp:378               multiple power domain definitions for the same path %s
+UPF 10016 upf.cpp:397               Creation of '%s' region failed
+UPF 10017 upf.cpp:407               No area specified for '%s' power domain
+UPF 10018 upf.cpp:415               Creation of '%s' group failed, duplicate group exists.
+UPF 10019 upf.cpp:434               Creation of '%s' dbNet from UPF Logic Port failed
+UPF 10020 upf.cpp:540               Isolation %s defined, but no cells defined.
+UPF 10021 upf.cpp:564               Isolation %s cells defined, but can't find any in the lib.
+UPF 10022 upf.cpp:600               Isolation %s cells defined, but can't find one of output, data or enable terms.
+UPF 10023 upf.cpp:735               Isolation %s has nonexisting control net %s
+UPF 10024 upf.cpp:784               Isolation %s has location %s, but only self|parent|fanoutsupported, defaulting to self.
+UPF 10025 upf.cpp:849               No TOP DOMAIN found, aborting
+UPF 10026 upf.cpp:884               Multiple isolation strategies defined for the same power domain %s.
+UPF 10027 upf.cpp:912               can't find any inverters

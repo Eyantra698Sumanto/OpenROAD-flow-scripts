@@ -1,0 +1,31 @@
+TAP 0004 tapcell.cpp:284           Inserted {} endcaps.
+TAP 0005 tapcell.cpp:425           Inserted {} tapcells.
+TAP 0006 tapcell.cpp:557           Inserted {} top/bottom cells.
+TAP 0007 tapcell.cpp:892           Inserted {} cells near blockages.
+TAP 0009 tapcell.cpp:265           Row {} has enough space for only one endcap.
+TAP 0010 tapcell.tcl:169           Master $tapcell_master_name not found.
+TAP 0011 tapcell.tcl:179           Master $endcap_master_name not found.
+TAP 0012 tapcell.cpp:184           Master {} not found.
+TAP 0013 tapcell.cpp:190           Master {} not found.
+TAP 0014 tapcell.tcl:74            endcap_cpp option is deprecated.
+TAP 0015 tapcell.tcl:143           tbtie_cpp option is deprecated.
+TAP 0016 tapcell.tcl:147           no_cell_at_top_bottom option is deprecated.
+TAP 0018 tapcell.cpp:481           Master {} not found.
+TAP 0019 tapcell.cpp:487           Master {} not found.
+TAP 0020 tapcell.cpp:492           Master {} not found.
+TAP 0021 tapcell.cpp:497           Master $tap_nwouttie_master_name not found.
+TAP 0022 tapcell.cpp:502           Master {} not found.
+TAP 0023 tapcell.cpp:508           Master {} not found.
+TAP 0024 tapcell.cpp:683           Master {} not found.
+TAP 0025 tapcell.cpp:689           Master {} not found.
+TAP 0026 tapcell.cpp:694           Master {} not found.
+TAP 0027 tapcell.cpp:699           Master {} not found.
+TAP 0028 tapcell.cpp:705           Master {} not found.
+TAP 0029 tapcell.cpp:711           Master {} not found.
+TAP 0030 tapcell.cpp:717           Master {} not found.
+TAP 0031 tapcell.cpp:723           Master {} not found.
+TAP 0032 tapcell.cpp:1029          Macro {} is not placed.
+TAP 0033 tapcell.cpp:1055          Not able to build instance {} with master {}.
+TAP 0034 tapcell.tcl:213           Master $endcap_master_name not found.
+TAP 0100 tapcell.tcl:246           Removed $taps_removed tapcells.
+TAP 0101 tapcell.tcl:248           Removed $endcaps_removed endcaps.

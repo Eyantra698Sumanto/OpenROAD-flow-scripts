@@ -1,0 +1,70 @@
+PSM 0001 pdnsim.cpp:136            Reading voltage source file: {}.
+PSM 0002 pdnsim.cpp:142            Output voltage file is specified as: {}.
+PSM 0003 pdnsim.cpp:149            Output current file specified {}.
+PSM 0004 pdnsim.cpp:155            EM calculation is enabled.
+PSM 0005 pdnsim.cpp:162            Output spice file is specified as: {}.
+PSM 0006 pdnsim.cpp:186            SPICE file is written at: {}.
+PSM 0007 pdnsim.cpp:189            Failed to write out spice file: {}.
+PSM 0008 ir_solver.cpp:157         Powergrid is not connected to all instances, therefore the IR Solver may not be accurate. LVS may also fail.
+PSM 0010 ir_solver.cpp:181         LU factorization of the G Matrix failed. SparseLU solver message: {}.
+PSM 0012 ir_solver.cpp:192         Solving V = inv(G)*J failed.
+PSM 0014 ir_solver.cpp:313         Number of voltage sources cannot be 0.
+PSM 0015 ir_solver.cpp:330         Reading location of VDD and VSS sources from {}.
+PSM 0016 ir_solver.cpp:361         Voltage pad location (VSRC) file not specified, defaulting pad location to checkerboard pattern on core area.
+PSM 0017 ir_solver.cpp:375         X direction bump pitch is not specified, defaulting to {}um.
+PSM 0018 ir_solver.cpp:383         Y direction bump pitch is not specified, defaulting to {}um.
+PSM 0019 ir_solver.cpp:392         Voltage on net {} is not explicitly set.
+PSM 0020 ir_solver.cpp:397         Cannot find net {} in the design. Please provide a valid VDD/VSS net.
+PSM 0021 ir_solver.cpp:406         Using voltage {:4.3f}V for ground network.
+PSM 0022 ir_solver.cpp:412         Using voltage {:4.3f}V for VDD network.
+PSM 0024 ir_solver.cpp:574         Instance {}, current node at ({}, {}) at layer {} have been moved from ({}, {}).
+PSM 0027 ir_solver.cpp:1181        Cannot find net {} in the design. Please provide a valid VDD/VSS net.
+PSM 0030 ir_solver.cpp:1097        VSRC location at ({:4.3f}um, {:4.3f}um) and size {:4.3f}um, is not located on an existing power stripe node. Moving to closest node at ({:4.3f}um, {:4.3f}um).
+PSM 0031 ir_solver.cpp:1213        Number of PDN nodes on net {} = {}.
+PSM 0032 ir_solver.cpp:975         Node at ({}, {}) and layer {} moved from ({}, {}).
+PSM 0033 ir_solver.cpp:986         Node at ({}, {}) and layer {} moved from ({}, {}).
+PSM 0035 ir_solver.cpp:955         {} resistance not found in DB. Check the LEF or set it using the 'set_layer_rc' command.
+PSM 0036 ir_solver.cpp:1008        Layer {} per-unit resistance not found in DB. Check the LEF or set it using the command 'set_layer_rc -layer'.
+PSM 0037 ir_solver.cpp:1029        Layer {} per-unit resistance not found in DB. Check the LEF or set it using the command 'set_layer_rc -layer'.
+PSM 0038 ir_solver.cpp:1284        Unconnected PDN node on net {} at location ({:4.3f}um, {:4.3f}um), layer: {}.
+PSM 0039 ir_solver.cpp:1294        Unconnected instance {} at location ({:4.3f}um, {:4.3f}um) layer: {}.
+PSM 0040 ir_solver.cpp:1307        All PDN stripes on net {} are connected.
+PSM 0041 ir_solver.cpp:1347        Could not open SPICE file {}. Please check if it is a valid path.
+PSM 0042 ir_solver.cpp:555         Unable to connect macro/pad Instance {} to the power grid.
+PSM 0045 gmat.cpp:185              Layer {} contains no grid nodes.
+PSM 0046 gmat.cpp:194              Node location lookup error for y.
+PSM 0047 gmat.cpp:197              Node location lookup error for x.
+PSM 0048 gmat.cpp:282              Printing GMat obj, with {} nodes.
+PSM 0049 gmat.cpp:334              No nodes in object, initialization stopped.
+PSM 0050 gmat.cpp:388              Creating stripe condunctance with invalid inputs. Min and max values for X or Y are interchanged.
+PSM 0051 gmat.cpp:561              Index out of bound for getting G matrix conductance. 
+PSM 0052 gmat.cpp:588              Index out of bound for getting G matrix conductance. 
+PSM 0053 pdnsim.tcl:56             Cannot read $vsrc_file.
+PSM 0054 pdnsim.tcl:63             Argument -net not specified.
+PSM 0055 pdnsim.tcl:97             EM outfile defined without EM enable flag. Add -enable_em.
+PSM 0056 pdnsim.tcl:103            No rows defined in design. Floorplan not defined. Use initialize_floorplan to add rows.
+PSM 0057 pdnsim.tcl:117            Argument -net not specified.
+PSM 0058 pdnsim.tcl:126            No rows defined in design. Use initialize_floorplan to add rows.
+PSM 0059 pdnsim.tcl:146            Cannot read $vsrc_file.
+PSM 0060 pdnsim.tcl:157            Argument -net not specified.
+PSM 0061 pdnsim.tcl:171            No rows defined in design. Use initialize_floorplan to add rows and construct PDN.
+PSM 0062 pdnsim.tcl:187            Argument -net or -voltage not specified. Please specify both -net and -voltage arguments.
+PSM 0063 ir_solver.cpp:422         Specified bump pitches of {:4.3f} and {:4.3f} are less than core width of {:4.3f} or core height of {:4.3f}. Changing bump location to the center of the die at ({:4.3f}, {:4.3f}).
+PSM 0064 ir_solver.cpp:315         Number of voltage sources = {}.
+PSM 0065 ir_solver.cpp:441         VSRC location not specified, using default checkerboard pattern with one VDD every size bumps in x-direction and one in two bumps in the y-direction
+PSM 0066 ir_solver.cpp:1052        Layer {} per-unit resistance not found in DB. Check the LEF or set it using the command 'set_layer_rc -layer'.
+PSM 0067 ir_solver.cpp:1115        Multiple voltage supply values mappedat the same node ({:4.3f}um, {:4.3f}um).If you provided a vsrc file. Check for duplicate entries.Choosing voltage value {:4.3f}.
+PSM 0068 pdnsim.cpp:304            Minimum resolution not set. Please run analyze_power_grid first.
+PSM 0069 pdnsim.tcl:122            Check connectivity failed.
+PSM 0070 ir_solver.cpp:1203        Net {} has no nodes and will be skipped
+PSM 0071 ir_solver.cpp:468         Instance {} is not placed. Therefore, the power drawn by this instance is not considered for IR  drop estimation. Please run analyze_power_grid after instances are placed.
+PSM 0072 ir_solver.cpp:544         No nodes found in macro/pad bounding box for Instance {}.Using nearest node at ({}, {}) on the pin layer at routing level {}.
+PSM 0073 ir_solver.cpp:1157        Setting lower metal node density to {}um as specfied by user.
+PSM 0074 ir_solver.cpp:525         No nodes found in macro or pad bounding box for Instance {} for the pin layer at routing level {}. Using layer {}.
+PSM 0075 ir_solver.cpp:354         Expected four values on line: {}
+PSM 0076 ir_solver.cpp:1169        Setting metal node density to be standard cell height times {}.
+PSM 0077 pdnsim.tcl:75             Cannot use both node_density and node_density_factor together. Use any one argument
+PSM 0078 pdnsim.cpp:214            IR drop setup failed.  Analysis can't proceed.
+PSM 0079 get_voltage.cpp:58        Can't determine the supply voltage as no Liberty is loaded.
+PSM 0080 gmat.cpp:111              Creating stripe condunctance with invalid inputs. Min and max values for X or Y are interchanged.
+PSM 0081 ir_solver.cpp:721         Via connection failed at {}, {}
