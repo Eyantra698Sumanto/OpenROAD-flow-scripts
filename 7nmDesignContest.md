@@ -6,7 +6,7 @@
 ## Important Links 
 - [Recent Logs link](https://github.com/Eyantra698Sumanto/OpenROAD-flow-scripts/tree/7nmcontest/flow/log/asap7/ibex/base)
 - [Old Logs for unchanged code](https://github.com/Eyantra698Sumanto/OpenROAD-flow-scripts/tree/7nmcontest/flow/oldlog/asap7/ibex/base)
-- [OpenROAD Modified Code](https://github.com/Eyantra698Sumanto/OpenROAD-flow-scripts/tree/7nmcontest/tools/OpenROAD1/src)
+- [OpenROAD Modified Code](https://github.com/Eyantra698Sumanto/OpenROAD-flow-scripts/tree/7nmcontest/tools/OpenROAD1/src/gpl/src)
 ## Steps followed:
 1. Build and install using ```./build_openroad.sh```
 2. Comment the ibex/config.mk and gcd/config.mk in the makefile at OpenROAD-flow-scripts/flow folder
@@ -17,26 +17,26 @@
 6. Repeat from **Step 1** again
 ## Run Time of Placement Stage without any changes
 ![image](https://user-images.githubusercontent.com/58599984/228294893-6f5bfca1-6386-42da-9984-0972c6a86e2b.png)
-## Changes made in the gpuSolver.cu
+## Changes made in the [gpuSolver.cu](https://github.com/Eyantra698Sumanto/OpenROAD-flow-scripts/tree/7nmcontest/tools/OpenROAD1/src/gpl/src)
 ![image](https://user-images.githubusercontent.com/58599984/228294648-7c1df1da-ca05-454f-8cf7-8aec489ac4b5.png)
 
 
 ### Improvement in the Placement Stage timing
 ![image](https://user-images.githubusercontent.com/58599984/228300190-5390745f-affb-45b8-99f0-7465afaf3bba.png)
 
-## Changes made in nesterovPlace.cpp
+## Changes made in [nesterovPlace.cpp](https://github.com/Eyantra698Sumanto/OpenROAD-flow-scripts/tree/7nmcontest/tools/OpenROAD1/src/gpl/src)
 ![image](https://user-images.githubusercontent.com/58599984/228318635-0d807721-50e5-43c9-8b89-e968c676301a.png)
 
 ### Improvement in the Placement Stage timing
 ![image](https://user-images.githubusercontent.com/58599984/228318784-6d66e01f-953c-4f8b-95b7-022c0f16a582.png)
 
-## Changes made in solver.cpp
+## Changes made in [solver.cpp](https://github.com/Eyantra698Sumanto/OpenROAD-flow-scripts/tree/7nmcontest/tools/OpenROAD1/src/gpl/src)
 ![image](https://user-images.githubusercontent.com/58599984/228338100-e357c884-8731-41ab-96a8-e6cfcba29169.png)
 
 ### Improvement in the Placement Stage timing
 ![image](https://user-images.githubusercontent.com/58599984/228324932-738966d1-c5aa-481c-849c-eb550c3a912e.png)
 
-## Changes made in fftsg.cpp rdft function
+## Changes made in [fftsg.cpp](https://github.com/Eyantra698Sumanto/OpenROAD-flow-scripts/tree/7nmcontest/tools/OpenROAD1/src/gpl/src) rdft() function
 ![image](https://user-images.githubusercontent.com/58599984/228340068-a972819b-7efd-45c1-8b33-170c0901b5f5.png)
 
 ### Improvement in the Placement Stage timing
