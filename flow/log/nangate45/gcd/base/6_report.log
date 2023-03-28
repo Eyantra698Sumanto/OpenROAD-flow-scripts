@@ -1,0 +1,402 @@
+OpenROAD v2.0-6895-g5c85b36f8 
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+[INFO] Deleted 0 routing obstructions
+[INFO RCX-0431] Defined process_corner X with ext_model_index 0
+[INFO RCX-0029] Defined extraction corner X
+[INFO RCX-0008] extracting parasitics of gcd ...
+[INFO RCX-0435] Reading extraction model file ./platforms/nangate45/rcx_patterns.rules ...
+[INFO RCX-0436] RC segment generation gcd (max_merge_res 50.0) ...
+[INFO RCX-0040] Final 1228 rc segments
+[INFO RCX-0439] Coupling Cap extraction gcd ...
+[INFO RCX-0440] Coupling threshhold is 0.1000 fF, coupling capacitance less than 0.1000 fF will be grounded.
+[INFO RCX-0043] 2169 wires to be extracted
+[INFO RCX-0442] 49% completion -- 1068 wires have been extracted
+[INFO RCX-0442] 100% completion -- 2169 wires have been extracted
+[INFO RCX-0045] Extract 483 nets, 1677 rsegs, 1677 caps, 2987 ccs
+[INFO RCX-0015] Finished extracting gcd.
+[INFO RCX-0016] Writing SPEF ...
+[INFO RCX-0443] 483 nets finished
+[INFO RCX-0017] Finished writing SPEF ...
+[WARNING PSM-0016] Voltage pad location (VSRC) file not specified, defaulting pad location to checkerboard pattern on core area.
+[WARNING PSM-0017] X direction bump pitch is not specified, defaulting to 140um.
+[WARNING PSM-0018] Y direction bump pitch is not specified, defaulting to 140um.
+[WARNING PSM-0063] Specified bump pitches of 140.000 and 140.000 are less than core width of 30.590 or core height of 29.400. Changing bump location to the center of the die at (16.435, 16.100).
+[WARNING PSM-0065] VSRC location not specified, using default checkerboard pattern with one VDD every size bumps in x-direction and one in two bumps in the y-direction
+[INFO PSM-0076] Setting metal node density to be standard cell height times 5.
+[WARNING PSM-0030] VSRC location at (16.435um, 16.100um) and size 10.000um, is not located on an existing power stripe node. Moving to closest node at (31.140um, 16.800um).
+[INFO PSM-0031] Number of PDN nodes on net VDD = 112.
+[INFO PSM-0064] Number of voltage sources = 1.
+[INFO PSM-0040] All PDN stripes on net VDD are connected.
+########## IR report #################
+Worstcase voltage: 1.09e+00 V
+Average IR drop  : 4.08e-03 V
+Worstcase IR drop: 1.22e-02 V
+######################################
+[WARNING PSM-0016] Voltage pad location (VSRC) file not specified, defaulting pad location to checkerboard pattern on core area.
+[WARNING PSM-0017] X direction bump pitch is not specified, defaulting to 140um.
+[WARNING PSM-0018] Y direction bump pitch is not specified, defaulting to 140um.
+[WARNING PSM-0063] Specified bump pitches of 140.000 and 140.000 are less than core width of 30.590 or core height of 29.400. Changing bump location to the center of the die at (16.435, 16.100).
+[WARNING PSM-0065] VSRC location not specified, using default checkerboard pattern with one VDD every size bumps in x-direction and one in two bumps in the y-direction
+[INFO PSM-0076] Setting metal node density to be standard cell height times 5.
+[WARNING PSM-0030] VSRC location at (16.435um, 16.100um) and size 10.000um, is not located on an existing power stripe node. Moving to closest node at (3.140um, 15.400um).
+[INFO PSM-0031] Number of PDN nodes on net VSS = 112.
+[INFO PSM-0064] Number of voltage sources = 1.
+[INFO PSM-0040] All PDN stripes on net VSS are connected.
+########## IR report #################
+Worstcase voltage: 1.02e-02 V
+Average IR drop  : 3.71e-03 V
+Worstcase IR drop: 1.02e-02 V
+######################################
+
+==========================================================================
+finish check_setup
+--------------------------------------------------------------------------
+
+==========================================================================
+finish report_tns
+--------------------------------------------------------------------------
+tns -1.30
+
+==========================================================================
+finish report_wns
+--------------------------------------------------------------------------
+wns -0.08
+
+==========================================================================
+finish report_worst_slack
+--------------------------------------------------------------------------
+worst slack -0.08
+
+==========================================================================
+finish report_clock_skew
+--------------------------------------------------------------------------
+Clock core_clock
+Latency      CRPR       Skew
+_685_/CK ^
+   0.05
+_686_/CK ^
+   0.05      0.00       0.00
+
+
+==========================================================================
+finish report_checks -path_delay min
+--------------------------------------------------------------------------
+Startpoint: req_msg[19] (input port clocked by core_clock)
+Endpoint: _694_ (rising edge-triggered flip-flop clocked by core_clock)
+Path Group: core_clock
+Path Type: min
+
+Fanout     Cap    Slew   Delay    Time   Description
+-----------------------------------------------------------------------------
+                          0.00    0.00   clock core_clock (rise edge)
+                          0.00    0.00   clock network delay (propagated)
+                          0.09    0.09 ^ input external delay
+                  0.00    0.00    0.09 ^ req_msg[19] (in)
+     1    1.14                           req_msg[19] (net)
+                  0.00    0.00    0.09 ^ input11/A (BUF_X1)
+                  0.01    0.02    0.11 ^ input11/Z (BUF_X1)
+     1    1.71                           net11 (net)
+                  0.01    0.00    0.11 ^ _602_/A1 (NAND2_X1)
+                  0.01    0.01    0.12 v _602_/ZN (NAND2_X1)
+     1    1.67                           _254_ (net)
+                  0.01    0.00    0.12 v _604_/A2 (NAND3_X1)
+                  0.01    0.02    0.14 ^ _604_/ZN (NAND3_X1)
+     1    1.26                           _023_ (net)
+                  0.01    0.00    0.14 ^ _694_/D (DFF_X1)
+                                  0.14   data arrival time
+
+                          0.00    0.00   clock core_clock (rise edge)
+                          0.00    0.00   clock source latency
+                  0.00    0.00    0.00 ^ clk (in)
+     1    5.60                           clk (net)
+                  0.00    0.00    0.00 ^ clkbuf_0_clk/A (BUF_X4)
+                  0.01    0.02    0.02 ^ clkbuf_0_clk/Z (BUF_X4)
+     4   17.88                           clknet_0_clk (net)
+                  0.01    0.00    0.03 ^ clkbuf_2_0__f_clk/A (BUF_X4)
+                  0.01    0.03    0.05 ^ clkbuf_2_0__f_clk/Z (BUF_X4)
+    11   14.71                           clknet_2_0__leaf_clk (net)
+                  0.01    0.00    0.05 ^ _694_/CK (DFF_X1)
+                          0.00    0.05   clock reconvergence pessimism
+                          0.01    0.06   library hold time
+                                  0.06   data required time
+-----------------------------------------------------------------------------
+                                  0.06   data required time
+                                 -0.14   data arrival time
+-----------------------------------------------------------------------------
+                                  0.08   slack (MET)
+
+
+
+==========================================================================
+finish report_checks -path_delay max
+--------------------------------------------------------------------------
+Startpoint: _697_ (rising edge-triggered flip-flop clocked by core_clock)
+Endpoint: resp_msg[15] (output port clocked by core_clock)
+Path Group: core_clock
+Path Type: max
+
+Fanout     Cap    Slew   Delay    Time   Description
+-----------------------------------------------------------------------------
+                          0.00    0.00   clock core_clock (rise edge)
+                          0.00    0.00   clock source latency
+                  0.00    0.00    0.00 ^ clk (in)
+     1    5.60                           clk (net)
+                  0.00    0.00    0.00 ^ clkbuf_0_clk/A (BUF_X4)
+                  0.01    0.02    0.02 ^ clkbuf_0_clk/Z (BUF_X4)
+     4   17.88                           clknet_0_clk (net)
+                  0.01    0.00    0.03 ^ clkbuf_2_1__f_clk/A (BUF_X4)
+                  0.01    0.03    0.05 ^ clkbuf_2_1__f_clk/Z (BUF_X4)
+    10   13.45                           clknet_2_1__leaf_clk (net)
+                  0.01    0.00    0.05 ^ _697_/CK (DFF_X2)
+                  0.01    0.12    0.17 ^ _697_/Q (DFF_X2)
+     3    6.90                           dpath.a_lt_b$in0[6] (net)
+                  0.01    0.00    0.17 ^ _373_/B (XNOR2_X2)
+                  0.03    0.05    0.22 ^ _373_/ZN (XNOR2_X2)
+     3    9.20                           _064_ (net)
+                  0.03    0.00    0.22 ^ _374_/A2 (NAND2_X4)
+                  0.01    0.02    0.24 v _374_/ZN (NAND2_X4)
+     2   13.04                           _065_ (net)
+                  0.01    0.00    0.24 v _375_/A2 (NOR2_X4)
+                  0.01    0.03    0.27 ^ _375_/ZN (NOR2_X4)
+     1    6.28                           _066_ (net)
+                  0.01    0.00    0.27 ^ _376_/A2 (NAND2_X4)
+                  0.01    0.01    0.29 v _376_/ZN (NAND2_X4)
+     1    5.95                           _067_ (net)
+                  0.01    0.00    0.29 v _393_/A1 (NAND2_X4)
+                  0.01    0.02    0.30 ^ _393_/ZN (NAND2_X4)
+     5   16.03                           _084_ (net)
+                  0.01    0.00    0.31 ^ _404_/A1 (NAND2_X4)
+                  0.01    0.01    0.32 v _404_/ZN (NAND2_X4)
+     1    5.82                           _095_ (net)
+                  0.01    0.00    0.32 v _415_/A1 (NAND2_X4)
+                  0.01    0.02    0.33 ^ _415_/ZN (NAND2_X4)
+     3   10.68                           _106_ (net)
+                  0.01    0.00    0.34 ^ _421_/A1 (NAND2_X4)
+                  0.01    0.01    0.35 v _421_/ZN (NAND2_X4)
+     1    5.82                           _112_ (net)
+                  0.01    0.00    0.35 v _427_/A1 (NAND2_X4)
+                  0.01    0.02    0.36 ^ _427_/ZN (NAND2_X4)
+     2    8.71                           _118_ (net)
+                  0.01    0.00    0.36 ^ _431_/A1 (NAND2_X4)
+                  0.01    0.01    0.38 v _431_/ZN (NAND2_X4)
+     2    7.66                           _122_ (net)
+                  0.01    0.00    0.38 v _433_/A1 (NAND2_X4)
+                  0.01    0.01    0.39 ^ _433_/ZN (NAND2_X4)
+     1    6.19                           _124_ (net)
+                  0.01    0.00    0.39 ^ _437_/A1 (NAND2_X4)
+                  0.01    0.01    0.40 v _437_/ZN (NAND2_X4)
+     2    3.87                           _128_ (net)
+                  0.01    0.00    0.40 v _439_/A1 (AND2_X2)
+                  0.00    0.02    0.43 v _439_/ZN (AND2_X2)
+     1    1.21                           net43 (net)
+                  0.00    0.00    0.43 v output43/A (BUF_X1)
+                  0.00    0.02    0.45 v output43/Z (BUF_X1)
+     1    0.17                           resp_msg[15] (net)
+                  0.00    0.00    0.45 v resp_msg[15] (out)
+                                  0.45   data arrival time
+
+                          0.46    0.46   clock core_clock (rise edge)
+                          0.00    0.46   clock network delay (propagated)
+                          0.00    0.46   clock reconvergence pessimism
+                         -0.09    0.37   output external delay
+                                  0.37   data required time
+-----------------------------------------------------------------------------
+                                  0.37   data required time
+                                 -0.45   data arrival time
+-----------------------------------------------------------------------------
+                                 -0.08   slack (VIOLATED)
+
+
+
+==========================================================================
+finish report_checks -unconstrained
+--------------------------------------------------------------------------
+Startpoint: _697_ (rising edge-triggered flip-flop clocked by core_clock)
+Endpoint: resp_msg[15] (output port clocked by core_clock)
+Path Group: core_clock
+Path Type: max
+
+Fanout     Cap    Slew   Delay    Time   Description
+-----------------------------------------------------------------------------
+                          0.00    0.00   clock core_clock (rise edge)
+                          0.00    0.00   clock source latency
+                  0.00    0.00    0.00 ^ clk (in)
+     1    5.60                           clk (net)
+                  0.00    0.00    0.00 ^ clkbuf_0_clk/A (BUF_X4)
+                  0.01    0.02    0.02 ^ clkbuf_0_clk/Z (BUF_X4)
+     4   17.88                           clknet_0_clk (net)
+                  0.01    0.00    0.03 ^ clkbuf_2_1__f_clk/A (BUF_X4)
+                  0.01    0.03    0.05 ^ clkbuf_2_1__f_clk/Z (BUF_X4)
+    10   13.45                           clknet_2_1__leaf_clk (net)
+                  0.01    0.00    0.05 ^ _697_/CK (DFF_X2)
+                  0.01    0.12    0.17 ^ _697_/Q (DFF_X2)
+     3    6.90                           dpath.a_lt_b$in0[6] (net)
+                  0.01    0.00    0.17 ^ _373_/B (XNOR2_X2)
+                  0.03    0.05    0.22 ^ _373_/ZN (XNOR2_X2)
+     3    9.20                           _064_ (net)
+                  0.03    0.00    0.22 ^ _374_/A2 (NAND2_X4)
+                  0.01    0.02    0.24 v _374_/ZN (NAND2_X4)
+     2   13.04                           _065_ (net)
+                  0.01    0.00    0.24 v _375_/A2 (NOR2_X4)
+                  0.01    0.03    0.27 ^ _375_/ZN (NOR2_X4)
+     1    6.28                           _066_ (net)
+                  0.01    0.00    0.27 ^ _376_/A2 (NAND2_X4)
+                  0.01    0.01    0.29 v _376_/ZN (NAND2_X4)
+     1    5.95                           _067_ (net)
+                  0.01    0.00    0.29 v _393_/A1 (NAND2_X4)
+                  0.01    0.02    0.30 ^ _393_/ZN (NAND2_X4)
+     5   16.03                           _084_ (net)
+                  0.01    0.00    0.31 ^ _404_/A1 (NAND2_X4)
+                  0.01    0.01    0.32 v _404_/ZN (NAND2_X4)
+     1    5.82                           _095_ (net)
+                  0.01    0.00    0.32 v _415_/A1 (NAND2_X4)
+                  0.01    0.02    0.33 ^ _415_/ZN (NAND2_X4)
+     3   10.68                           _106_ (net)
+                  0.01    0.00    0.34 ^ _421_/A1 (NAND2_X4)
+                  0.01    0.01    0.35 v _421_/ZN (NAND2_X4)
+     1    5.82                           _112_ (net)
+                  0.01    0.00    0.35 v _427_/A1 (NAND2_X4)
+                  0.01    0.02    0.36 ^ _427_/ZN (NAND2_X4)
+     2    8.71                           _118_ (net)
+                  0.01    0.00    0.36 ^ _431_/A1 (NAND2_X4)
+                  0.01    0.01    0.38 v _431_/ZN (NAND2_X4)
+     2    7.66                           _122_ (net)
+                  0.01    0.00    0.38 v _433_/A1 (NAND2_X4)
+                  0.01    0.01    0.39 ^ _433_/ZN (NAND2_X4)
+     1    6.19                           _124_ (net)
+                  0.01    0.00    0.39 ^ _437_/A1 (NAND2_X4)
+                  0.01    0.01    0.40 v _437_/ZN (NAND2_X4)
+     2    3.87                           _128_ (net)
+                  0.01    0.00    0.40 v _439_/A1 (AND2_X2)
+                  0.00    0.02    0.43 v _439_/ZN (AND2_X2)
+     1    1.21                           net43 (net)
+                  0.00    0.00    0.43 v output43/A (BUF_X1)
+                  0.00    0.02    0.45 v output43/Z (BUF_X1)
+     1    0.17                           resp_msg[15] (net)
+                  0.00    0.00    0.45 v resp_msg[15] (out)
+                                  0.45   data arrival time
+
+                          0.46    0.46   clock core_clock (rise edge)
+                          0.00    0.46   clock network delay (propagated)
+                          0.00    0.46   clock reconvergence pessimism
+                         -0.09    0.37   output external delay
+                                  0.37   data required time
+-----------------------------------------------------------------------------
+                                  0.37   data required time
+                                 -0.45   data arrival time
+-----------------------------------------------------------------------------
+                                 -0.08   slack (VIOLATED)
+
+
+
+==========================================================================
+finish report_check_types -max_slew -max_cap -max_fanout -violators
+--------------------------------------------------------------------------
+
+==========================================================================
+finish max_slew_check_slack
+--------------------------------------------------------------------------
+0.09220720827579498
+
+==========================================================================
+finish max_slew_check_limit
+--------------------------------------------------------------------------
+0.1985349953174591
+
+==========================================================================
+finish max_slew_check_slack_limit
+--------------------------------------------------------------------------
+0.4644
+
+==========================================================================
+finish max_fanout_check_slack
+--------------------------------------------------------------------------
+1.0000000150474662e+30
+
+==========================================================================
+finish max_fanout_check_limit
+--------------------------------------------------------------------------
+1.0000000150474662e+30
+
+==========================================================================
+finish max_capacitance_check_slack
+--------------------------------------------------------------------------
+14.234132766723633
+
+==========================================================================
+finish max_capacitance_check_limit
+--------------------------------------------------------------------------
+16.021699905395508
+
+==========================================================================
+finish max_capacitance_check_slack_limit
+--------------------------------------------------------------------------
+0.8884
+
+==========================================================================
+finish max_slew_violation_count
+--------------------------------------------------------------------------
+max slew violation count 0
+
+==========================================================================
+finish max_fanout_violation_count
+--------------------------------------------------------------------------
+max fanout violation count 0
+
+==========================================================================
+finish max_cap_violation_count
+--------------------------------------------------------------------------
+max cap violation count 0
+
+==========================================================================
+finish setup_violation_count
+--------------------------------------------------------------------------
+setup violation count 1
+
+==========================================================================
+finish hold_violation_count
+--------------------------------------------------------------------------
+hold violation count 0
+
+==========================================================================
+finish critical path delay
+--------------------------------------------------------------------------
+0.4470
+
+==========================================================================
+finish critical path slack
+--------------------------------------------------------------------------
+-0.0790
+
+==========================================================================
+finish slack div critical path delay
+--------------------------------------------------------------------------
+-17.673378
+
+==========================================================================
+finish report_power
+--------------------------------------------------------------------------
+Group                  Internal  Switching    Leakage      Total
+                          Power      Power      Power      Power (Watts)
+----------------------------------------------------------------
+Sequential             4.50e-04   5.99e-05   3.16e-06   5.13e-04  32.5%
+Combinational          5.59e-04   4.96e-04   9.98e-06   1.06e-03  67.5%
+Macro                  0.00e+00   0.00e+00   0.00e+00   0.00e+00   0.0%
+Pad                    0.00e+00   0.00e+00   0.00e+00   0.00e+00   0.0%
+----------------------------------------------------------------
+Total                  1.01e-03   5.56e-04   1.31e-05   1.58e-03 100.0%
+                          63.9%      35.2%       0.8%
+
+==========================================================================
+finish report_design_area
+--------------------------------------------------------------------------
+Design area 580 u^2 65% utilization.
+
+[WARNING GUI-0010] File path does not end with a valid extension, new path is: ./reports/nangate45/gcd/base/final_routing.webp.png
+[WARNING GUI-0010] File path does not end with a valid extension, new path is: ./reports/nangate45/gcd/base/final_placement.webp.png
+[WARNING GUI-0010] File path does not end with a valid extension, new path is: ./reports/nangate45/gcd/base/final_ir_drop.webp.png
+[WARNING GUI-0010] File path does not end with a valid extension, new path is: ./reports/nangate45/gcd/base/final_clocks.webp.png
+[WARNING GUI-0010] File path does not end with a valid extension, new path is: ./reports/nangate45/gcd/base/final_resizer.webp.png
+[WARNING GUI-0010] File path does not end with a valid extension, new path is: ./reports/nangate45/gcd/base/cts_core_clock.webp.png
+Elapsed time: 0:12.95[h:]min:sec. CPU time: user 2.70 sys 0.26 (22%). Peak memory: 232512KB.

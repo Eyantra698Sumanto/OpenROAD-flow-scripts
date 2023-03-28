@@ -1,0 +1,494 @@
+OpenROAD v2.0-6895-g5c85b36f8 
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+[WARNING STA-0164] ./platforms/asap7/lib/asap7sc7p5t_SIMPLE_RVT_FF_nldm_211120.lib.gz line 13178, timing group from output port.
+[WARNING STA-0164] ./platforms/asap7/lib/asap7sc7p5t_SIMPLE_RVT_FF_nldm_211120.lib.gz line 13211, timing group from output port.
+[WARNING STA-0164] ./platforms/asap7/lib/asap7sc7p5t_SIMPLE_RVT_FF_nldm_211120.lib.gz line 13244, timing group from output port.
+[WARNING STA-0164] ./platforms/asap7/lib/asap7sc7p5t_SIMPLE_RVT_FF_nldm_211120.lib.gz line 13277, timing group from output port.
+[WARNING STA-0164] ./platforms/asap7/lib/asap7sc7p5t_SIMPLE_RVT_FF_nldm_211120.lib.gz line 13310, timing group from output port.
+[WARNING STA-0164] ./platforms/asap7/lib/asap7sc7p5t_SIMPLE_RVT_FF_nldm_211120.lib.gz line 13343, timing group from output port.
+[WARNING STA-0164] ./platforms/asap7/lib/asap7sc7p5t_SIMPLE_RVT_FF_nldm_211120.lib.gz line 13376, timing group from output port.
+[WARNING STA-0164] ./platforms/asap7/lib/asap7sc7p5t_SIMPLE_RVT_FF_nldm_211120.lib.gz line 14772, timing group from output port.
+[WARNING STA-0164] ./platforms/asap7/lib/asap7sc7p5t_SIMPLE_RVT_FF_nldm_211120.lib.gz line 14805, timing group from output port.
+[WARNING STA-0164] ./platforms/asap7/lib/asap7sc7p5t_SIMPLE_RVT_FF_nldm_211120.lib.gz line 14838, timing group from output port.
+[INFO GPL-0002] DBU: 1000
+[INFO GPL-0003] SiteSize: 54 270
+[INFO GPL-0004] CoreAreaLxLy: 5022 5130
+[INFO GPL-0005] CoreAreaUxUy: 544968 594810
+[INFO GPL-0006] NumInstances: 232418
+[INFO GPL-0007] NumPlaceInstances: 109126
+[INFO GPL-0008] NumFixedInstances: 58089
+[INFO GPL-0009] NumDummyInstances: 65203
+[INFO GPL-0010] NumNets: 113539
+[INFO GPL-0011] NumPins: 426005
+[INFO GPL-0012] DieAreaLxLy: 0 0
+[INFO GPL-0013] DieAreaUxUy: 550000 600000
+[INFO GPL-0014] CoreAreaLxLy: 5022 5130
+[INFO GPL-0015] CoreAreaUxUy: 544968 594810
+[INFO GPL-0016] CoreArea: 318395357280
+[INFO GPL-0017] NonPlaceInstsArea: 148948813440
+[INFO GPL-0018] PlaceInstsArea: 24474046320
+[INFO GPL-0019] Util(%): 14.44
+[INFO GPL-0020] StdInstsArea: 24474046320
+[INFO GPL-0021] MacroInstsArea: 0
+[INFO GPL-0031] FillerInit: NumGCells: 781134
+[INFO GPL-0032] FillerInit: NumGNets: 113539
+[INFO GPL-0033] FillerInit: NumGPins: 426005
+[INFO GPL-0023] TargetDensity: 1.00
+[INFO GPL-0024] AveragePlaceInstArea: 224273
+[INFO GPL-0025] IdealBinArea: 224273
+[INFO GPL-0026] IdealBinCnt: 1419677
+[INFO GPL-0027] TotalBinArea: 318395357280
+[INFO GPL-0028] BinCnt: 1024 1024
+[INFO GPL-0029] BinSize: 528 576
+[INFO GPL-0030] NumBins: 1048576
+[INFO GPL-0002] DBU: 1000
+[INFO GPL-0003] SiteSize: 54 270
+[INFO GPL-0004] CoreAreaLxLy: 5022 5130
+[INFO GPL-0005] CoreAreaUxUy: 544968 594810
+[INFO GPL-0006] NumInstances: 232418
+[INFO GPL-0007] NumPlaceInstances: 109126
+[INFO GPL-0008] NumFixedInstances: 58089
+[INFO GPL-0009] NumDummyInstances: 65203
+[INFO GPL-0010] NumNets: 113539
+[INFO GPL-0011] NumPins: 426005
+[INFO GPL-0012] DieAreaLxLy: 0 0
+[INFO GPL-0013] DieAreaUxUy: 550000 600000
+[INFO GPL-0014] CoreAreaLxLy: 5022 5130
+[INFO GPL-0015] CoreAreaUxUy: 544968 594810
+[INFO GPL-0016] CoreArea: 318395357280
+[INFO GPL-0017] NonPlaceInstsArea: 148948813440
+[INFO GPL-0018] PlaceInstsArea: 24474046320
+[INFO GPL-0019] Util(%): 14.44
+[INFO GPL-0020] StdInstsArea: 24474046320
+[INFO GPL-0021] MacroInstsArea: 0
+[InitialPlace]  Iter: 1 CG residual: 0.00083732 HPWL: 1696736132
+[InitialPlace]  Iter: 2 CG residual: 0.00025237 HPWL: 995526671
+[InitialPlace]  Iter: 3 CG residual: 0.00008449 HPWL: 969248076
+[InitialPlace]  Iter: 4 CG residual: 0.00005990 HPWL: 956044684
+[InitialPlace]  Iter: 5 CG residual: 0.00004920 HPWL: 949143710
+[InitialPlace]  Iter: 6 CG residual: 0.00004664 HPWL: 945877618
+[InitialPlace]  Iter: 7 CG residual: 0.00004263 HPWL: 941439052
+[InitialPlace]  Iter: 8 CG residual: 0.00004952 HPWL: 938208830
+[InitialPlace]  Iter: 9 CG residual: 0.00003762 HPWL: 934148926
+[InitialPlace]  Iter: 10 CG residual: 0.00003654 HPWL: 931285283
+[InitialPlace]  Iter: 11 CG residual: 0.00003702 HPWL: 927598723
+[InitialPlace]  Iter: 12 CG residual: 0.00003453 HPWL: 925124854
+[InitialPlace]  Iter: 13 CG residual: 0.00003153 HPWL: 921921895
+[InitialPlace]  Iter: 14 CG residual: 0.00003681 HPWL: 920173997
+[InitialPlace]  Iter: 15 CG residual: 0.00003220 HPWL: 917764444
+[InitialPlace]  Iter: 16 CG residual: 0.00003430 HPWL: 916725716
+[InitialPlace]  Iter: 17 CG residual: 0.00003633 HPWL: 914856053
+[InitialPlace]  Iter: 18 CG residual: 0.00003438 HPWL: 914357960
+[InitialPlace]  Iter: 19 CG residual: 0.00008241 HPWL: 912929294
+[InitialPlace]  Iter: 20 CG residual: 0.00003911 HPWL: 913813420
+[INFO GPL-0031] FillerInit: NumGCells: 251382
+[INFO GPL-0032] FillerInit: NumGNets: 113539
+[INFO GPL-0033] FillerInit: NumGPins: 426005
+[INFO GPL-0023] TargetDensity: 0.33
+[INFO GPL-0024] AveragePlaceInstArea: 224273
+[INFO GPL-0025] IdealBinArea: 688909
+[INFO GPL-0026] IdealBinCnt: 462173
+[INFO GPL-0027] TotalBinArea: 318395357280
+[INFO GPL-0028] BinCnt: 512 512
+[INFO GPL-0029] BinSize: 1055 1152
+[INFO GPL-0030] NumBins: 262144
+[NesterovSolve] Iter: 1 overflow: 0.990786 HPWL: 666822939
+[NesterovSolve] Iter: 10 overflow: 0.984509 HPWL: 695101272
+[NesterovSolve] Iter: 20 overflow: 0.980715 HPWL: 750842995
+[NesterovSolve] Iter: 30 overflow: 0.978913 HPWL: 779919722
+[NesterovSolve] Iter: 40 overflow: 0.977814 HPWL: 797878670
+[NesterovSolve] Iter: 50 overflow: 0.975307 HPWL: 809026574
+[NesterovSolve] Iter: 60 overflow: 0.975306 HPWL: 816897013
+[NesterovSolve] Iter: 70 overflow: 0.976528 HPWL: 823937034
+[NesterovSolve] Iter: 80 overflow: 0.97747 HPWL: 828860005
+[NesterovSolve] Iter: 90 overflow: 0.977665 HPWL: 831695423
+[NesterovSolve] Iter: 100 overflow: 0.97723 HPWL: 833376883
+[NesterovSolve] Iter: 110 overflow: 0.977033 HPWL: 835236537
+[NesterovSolve] Iter: 120 overflow: 0.976952 HPWL: 838001459
+[NesterovSolve] Iter: 130 overflow: 0.976821 HPWL: 841055307
+[NesterovSolve] Iter: 140 overflow: 0.976748 HPWL: 844314230
+[NesterovSolve] Iter: 150 overflow: 0.976739 HPWL: 848815059
+[NesterovSolve] Iter: 160 overflow: 0.976751 HPWL: 855922180
+[NesterovSolve] Iter: 170 overflow: 0.976704 HPWL: 867530149
+[NesterovSolve] Iter: 180 overflow: 0.976438 HPWL: 886323980
+[NesterovSolve] Iter: 190 overflow: 0.976188 HPWL: 916468566
+[NesterovSolve] Iter: 200 overflow: 0.974816 HPWL: 965263139
+[NesterovSolve] Iter: 210 overflow: 0.968272 HPWL: 1040718685
+[NesterovSolve] Iter: 220 overflow: 0.946152 HPWL: 1143557527
+[NesterovSolve] Iter: 230 overflow: 0.900567 HPWL: 1255160943
+[NesterovSolve] Iter: 240 overflow: 0.848199 HPWL: 1309300693
+[NesterovSolve] Iter: 250 overflow: 0.806975 HPWL: 1343614469
+[NesterovSolve] Iter: 260 overflow: 0.769789 HPWL: 1426554068
+[INFO GPL-0100] worst slack -2.54e-10
+[INFO GPL-0103] Weighted 13360 nets.
+[NesterovSolve] Iter: 270 overflow: 0.741569 HPWL: 1459562959
+[NesterovSolve] Iter: 280 overflow: 0.705959 HPWL: 1479402141
+[NesterovSolve] Iter: 290 overflow: 0.668922 HPWL: 1534410643
+[NesterovSolve] Iter: 300 overflow: 0.643042 HPWL: 1501791783
+[INFO GPL-0100] worst slack 4.75e-11
+[INFO GPL-0103] Weighted 13303 nets.
+[NesterovSolve] Iter: 310 overflow: 0.607195 HPWL: 1503761305
+[NesterovSolve] Snapshot saved at iter = 311
+[NesterovSolve] Iter: 320 overflow: 0.55729 HPWL: 1494957987
+[NesterovSolve] Iter: 330 overflow: 0.50177 HPWL: 1551917491
+[INFO GPL-0100] worst slack 8.88e-11
+[INFO GPL-0103] Weighted 13335 nets.
+[NesterovSolve] Iter: 340 overflow: 0.450772 HPWL: 1574971453
+[NesterovSolve] Iter: 350 overflow: 0.397412 HPWL: 1585909326
+[NesterovSolve] Iter: 360 overflow: 0.352481 HPWL: 1568540089
+[NesterovSolve] Iter: 370 overflow: 0.317836 HPWL: 1533408082
+[NesterovSolve] Iter: 380 overflow: 0.290671 HPWL: 1501099910
+[INFO GPL-0100] worst slack 1.5e-10
+[INFO GPL-0103] Weighted 13323 nets.
+[NesterovSolve] Iter: 390 overflow: 0.265418 HPWL: 1469701239
+[NesterovSolve] Iter: 400 overflow: 0.239255 HPWL: 1458427793
+[NesterovSolve] Iter: 410 overflow: 0.212987 HPWL: 1462981457
+[INFO GPL-0075] Routability numCall: 1 inflationIterCnt: 1 bloatIterCnt: 0
+[INFO GPL-0036] TileLxLy: 0 0
+[INFO GPL-0037] TileSize: 540 540
+[INFO GPL-0038] TileCnt: 1018 1111
+[INFO GPL-0039] numRoutingLayers: 10
+[INFO GPL-0040] NumTiles: 1130998
+[INFO GPL-0063] TotalRouteOverflowH2: 0.8587661981582642
+[INFO GPL-0064] TotalRouteOverflowV2: 0.0
+[INFO GPL-0065] OverflowTileCnt2: 7
+[INFO GPL-0066] 0.5%RC: 0.9901881581834234
+[INFO GPL-0067] 1.0%RC: 0.9501294221724537
+[INFO GPL-0068] 2.0%RC: 0.8882762914864913
+[INFO GPL-0069] 5.0%RC: 0.7938227514141486
+[INFO GPL-0070] 0.5rcK: 1.0
+[INFO GPL-0071] 1.0rcK: 1.0
+[INFO GPL-0072] 2.0rcK: 0.0
+[INFO GPL-0073] 5.0rcK: 0.0
+[INFO GPL-0074] FinalRC: 0.9701588
+[INFO GPL-0100] worst slack 3.27e-10
+[INFO GPL-0103] Weighted 13341 nets.
+[NesterovSolve] Iter: 420 overflow: 0.186163 HPWL: 1474574378
+[NesterovSolve] Iter: 430 overflow: 0.173565 HPWL: 1450252562
+[NesterovSolve] Iter: 440 overflow: 0.152035 HPWL: 1451164979
+[NesterovSolve] Iter: 450 overflow: 0.133821 HPWL: 1447065106
+[INFO GPL-0100] worst slack 3.1e-10
+[INFO GPL-0103] Weighted 13315 nets.
+[NesterovSolve] Iter: 460 overflow: 0.11635 HPWL: 1445432489
+[NesterovSolve] Iter: 470 overflow: 0.100785 HPWL: 1445380307
+[NesterovSolve] Finished with Overflow: 0.099223
+
+==========================================================================
+global place check_setup
+--------------------------------------------------------------------------
+Warning: There are 94 unclocked register/latch pins.
+Warning: There are 490 unconstrained endpoints.
+
+==========================================================================
+global place report_tns
+--------------------------------------------------------------------------
+tns -904558912.00
+
+==========================================================================
+global place report_wns
+--------------------------------------------------------------------------
+wns -97532.87
+
+==========================================================================
+global place report_worst_slack
+--------------------------------------------------------------------------
+worst slack -97532.87
+
+==========================================================================
+global place report_checks -path_delay min
+--------------------------------------------------------------------------
+Startpoint: swerv/dbg/dmcontrol_dmactive_ff/dffs/_3_
+            (rising edge-triggered flip-flop clocked by core_clock)
+Endpoint: swerv/dbg/dmcommand_reg/genblock_dff/_74_
+          (removal check against rising-edge clock core_clock)
+Path Group: **async_default**
+Path Type: min
+
+Fanout     Cap    Slew   Delay    Time   Description
+-----------------------------------------------------------------------------
+                  0.00    0.00    0.00   clock core_clock (rise edge)
+                          0.00    0.00   clock network delay (ideal)
+                  0.00    0.00    0.00 ^ swerv/dbg/dmcontrol_dmactive_ff/dffs/_3_/CLK (DFFASRHQNx1_ASAP7_75t_R)
+                 22.53   41.39   41.39 v swerv/dbg/dmcontrol_dmactive_ff/dffs/_3_/QN (DFFASRHQNx1_ASAP7_75t_R)
+     1    2.01                           swerv/dbg/dmcontrol_dmactive_ff/dffs/_0_ (net)
+                 22.53    0.02   41.41 v swerv/dbg/dmcontrol_dmactive_ff/dffs/_2_/A (INVx3_ASAP7_75t_R)
+                 11.33    9.42   50.83 ^ swerv/dbg/dmcontrol_dmactive_ff/dffs/_2_/Y (INVx3_ASAP7_75t_R)
+     3    2.65                           swerv/dbg/dmcontrol_reg_0 (net)
+                 11.35    0.26   51.09 ^ swerv/dbg/_0962_/A2 (OA21x2_ASAP7_75t_R)
+               1565.40  518.59  569.69 ^ swerv/dbg/_0962_/Y (OA21x2_ASAP7_75t_R)
+   333  468.83                           swerv/dbg/dbg_dm_rst_l (net)
+               1565.40    0.18  569.87 ^ swerv/dbg/dmcommand_reg/genblock_dff/_74_/SETN (DFFASRHQNx1_ASAP7_75t_R)
+                                569.87   data arrival time
+
+                  0.00    0.00    0.00   clock core_clock (rise edge)
+                          0.00    0.00   clock network delay (ideal)
+                          0.00    0.00   clock reconvergence pessimism
+                                  0.00 ^ swerv/dbg/dmcommand_reg/genblock_dff/_74_/CLK (DFFASRHQNx1_ASAP7_75t_R)
+                        -38.49  -38.49   library removal time
+                                -38.49   data required time
+-----------------------------------------------------------------------------
+                                -38.49   data required time
+                               -569.87   data arrival time
+-----------------------------------------------------------------------------
+                                608.36   slack (MET)
+
+
+Startpoint: swerv/dmi_wrapper/i_dmi_jtag_to_core_sync/_16_
+            (rising edge-triggered flip-flop clocked by core_clock)
+Endpoint: swerv/dmi_wrapper/i_dmi_jtag_to_core_sync/_17_
+          (rising edge-triggered flip-flop clocked by core_clock)
+Path Group: core_clock
+Path Type: min
+
+Fanout     Cap    Slew   Delay    Time   Description
+-----------------------------------------------------------------------------
+                  0.00    0.00    0.00   clock core_clock (rise edge)
+                          0.00    0.00   clock network delay (ideal)
+                  0.00    0.00    0.00 ^ swerv/dmi_wrapper/i_dmi_jtag_to_core_sync/_16_/CLK (DFFASRHQNx1_ASAP7_75t_R)
+                 13.30   35.33   35.33 ^ swerv/dmi_wrapper/i_dmi_jtag_to_core_sync/_16_/QN (DFFASRHQNx1_ASAP7_75t_R)
+     1    0.70                           swerv/dmi_wrapper/i_dmi_jtag_to_core_sync/_04_ (net)
+                 13.30    0.00   35.33 ^ swerv/dmi_wrapper/i_dmi_jtag_to_core_sync/_12_/A (INVx1_ASAP7_75t_R)
+                  6.79    6.21   41.54 v swerv/dmi_wrapper/i_dmi_jtag_to_core_sync/_12_/Y (INVx1_ASAP7_75t_R)
+     1    0.65                           swerv/dmi_wrapper/i_dmi_jtag_to_core_sync/wren[0] (net)
+                  6.79    0.00   41.54 v swerv/dmi_wrapper/i_dmi_jtag_to_core_sync/_17_/D (DFFASRHQNx1_ASAP7_75t_R)
+                                 41.54   data arrival time
+
+                  0.00    0.00    0.00   clock core_clock (rise edge)
+                          0.00    0.00   clock network delay (ideal)
+                          0.00    0.00   clock reconvergence pessimism
+                                  0.00 ^ swerv/dmi_wrapper/i_dmi_jtag_to_core_sync/_17_/CLK (DFFASRHQNx1_ASAP7_75t_R)
+                          9.21    9.21   library hold time
+                                  9.21   data required time
+-----------------------------------------------------------------------------
+                                  9.21   data required time
+                                -41.54   data arrival time
+-----------------------------------------------------------------------------
+                                 32.33   slack (MET)
+
+
+
+==========================================================================
+global place report_checks -path_delay max
+--------------------------------------------------------------------------
+Startpoint: rst_l (input port clocked by core_clock)
+Endpoint: swerv/lsu/bus_intf/bus_buffer/lsu_axi_rready_ff/_3_
+          (recovery check against rising-edge clock core_clock)
+Path Group: **async_default**
+Path Type: max
+
+Fanout     Cap    Slew   Delay    Time   Description
+-----------------------------------------------------------------------------
+                  0.00    0.00    0.00   clock core_clock (rise edge)
+                          0.00    0.00   clock network delay (ideal)
+                        250.00  250.00 ^ input external delay
+                  0.00    0.00  250.00 ^ rst_l (in)
+     9   84.08                           rst_l (net)
+               1431.56  451.61  701.61 ^ swerv/_117_/B (OA21x2_ASAP7_75t_R)
+               59238.05 6279.99 6981.60 ^ swerv/_117_/Y (OA21x2_ASAP7_75t_R)
+ 13904 19128.18                           core_rst_l (net)
+               221357.09 71209.21 78190.81 ^ swerv/lsu/bus_intf/bus_buffer/lsu_axi_rready_ff/_3_/SETN (DFFASRHQNx1_ASAP7_75t_R)
+                               78190.81   data arrival time
+
+                  0.00 2500.00 2500.00   clock core_clock (rise edge)
+                          0.00 2500.00   clock network delay (ideal)
+                          0.00 2500.00   clock reconvergence pessimism
+                               2500.00 ^ swerv/lsu/bus_intf/bus_buffer/lsu_axi_rready_ff/_3_/CLK (DFFASRHQNx1_ASAP7_75t_R)
+                       -21842.06 -19342.06   library recovery time
+                               -19342.06   data required time
+-----------------------------------------------------------------------------
+                               -19342.06   data required time
+                               -78190.81   data arrival time
+-----------------------------------------------------------------------------
+                               -97532.87   slack (VIOLATED)
+
+
+Startpoint: swerv/dec/tlu/freeff/_19_
+            (rising edge-triggered flip-flop clocked by core_clock)
+Endpoint: swerv/ifu/bp/btb_bank2_way1_data_out/genblock_dff/_67_
+          (rising edge-triggered flip-flop clocked by core_clock)
+Path Group: core_clock
+Path Type: max
+
+Fanout     Cap    Slew   Delay    Time   Description
+-----------------------------------------------------------------------------
+                  0.00    0.00    0.00   clock core_clock (rise edge)
+                          0.00    0.00   clock network delay (ideal)
+                  0.00    0.00    0.00 ^ swerv/dec/tlu/freeff/_19_/CLK (DFFASRHQNx1_ASAP7_75t_R)
+                 21.74   41.09   41.09 ^ swerv/dec/tlu/freeff/_19_/QN (DFFASRHQNx1_ASAP7_75t_R)
+     1    1.97                           swerv/dec/tlu/freeff/_03_ (net)
+                 21.74    0.00   41.10 ^ swerv/dec/tlu/freeff/_12_/A (INVx3_ASAP7_75t_R)
+                219.37   50.92   92.02 v swerv/dec/tlu/freeff/_12_/Y (INVx3_ASAP7_75t_R)
+    66  117.69                           swerv/dec_tlu_flush_lower_wb (net)
+                541.03  168.33  260.35 v swerv/lsu/bus_intf/_1948_/A (INVx1_ASAP7_75t_R)
+                 57.86   40.66  301.01 ^ swerv/lsu/bus_intf/_1948_/Y (INVx1_ASAP7_75t_R)
+     1    0.63                           swerv/lsu/bus_intf/_1536_ (net)
+                 57.86    0.00  301.01 ^ swerv/lsu/bus_intf/_1949_/B (AND3x1_ASAP7_75t_R)
+               1190.91  203.84  504.85 ^ swerv/lsu/bus_intf/_1949_/Y (AND3x1_ASAP7_75t_R)
+    38  155.55                           lsu_freeze_dc3 (net)
+               1909.03  508.68 1013.53 ^ swerv/exu/_3182_/A (NOR2x1_ASAP7_75t_R)
+                232.80  174.73 1188.26 v swerv/exu/_3182_/Y (NOR2x1_ASAP7_75t_R)
+     2    1.63                           swerv/exu_flush_upper_e2 (net)
+                232.80    0.00 1188.27 v swerv/exu/_3183_/B (OR2x2_ASAP7_75t_R)
+                401.54  106.08 1294.35 v swerv/exu/_3183_/Y (OR2x2_ASAP7_75t_R)
+    97  124.22                           swerv/exu_flush_final (net)
+                817.84  244.93 1539.28 v swerv/ifu/ifc/_381_/A (INVx2_ASAP7_75t_R)
+                372.18  276.18 1815.45 ^ swerv/ifu/ifc/_381_/Y (INVx2_ASAP7_75t_R)
+    46   44.14                           swerv/ifu/ifc/_032_ (net)
+                373.24   11.63 1827.08 ^ swerv/ifu/ifc/_531_/A1 (AO21x1_ASAP7_75t_R)
+                132.10   73.64 1900.72 ^ swerv/ifu/ifc/_531_/Y (AO21x1_ASAP7_75t_R)
+     9   19.74                           swerv/ifu/ifc_fetch_addr_f1[8] (net)
+                132.52    4.56 1905.27 ^ swerv/ifu/bp/f1hash/_4_/B (XNOR2x1_ASAP7_75t_R)
+                 29.52   23.00 1928.28 v swerv/ifu/bp/f1hash/_4_/Y (XNOR2x1_ASAP7_75t_R)
+     1    1.72                           swerv/ifu/bp/f1hash/_0_ (net)
+                 29.52    0.02 1928.30 v swerv/ifu/bp/f1hash/_5_/B (XNOR2x1_ASAP7_75t_R)
+               4441.46 1446.74 3375.04 ^ swerv/ifu/bp/f1hash/_5_/Y (XNOR2x1_ASAP7_75t_R)
+   628  592.03                           swerv/ifu/bp/btb_rd_addr_f1[4] (net)
+               4724.09  597.29 3972.32 ^ swerv/ifu/bp/_4517_/A (INVx1_ASAP7_75t_R)
+               1660.33 5031.57 9003.89 v swerv/ifu/bp/_4517_/Y (INVx1_ASAP7_75t_R)
+   208  207.09                           swerv/ifu/bp/_0446_ (net)
+               1660.33  159.07 9162.96 v swerv/ifu/bp/_5827_/A1 (AO21x1_ASAP7_75t_R)
+                 30.95  165.42 9328.38 v swerv/ifu/bp/_5827_/Y (AO21x1_ASAP7_75t_R)
+     1    0.71                           swerv/ifu/bp/_1586_ (net)
+                 30.95    0.01 9328.38 v swerv/ifu/bp/_5833_/A2 (OA21x2_ASAP7_75t_R)
+                 45.78   25.88 9354.27 v swerv/ifu/bp/_5833_/Y (OA21x2_ASAP7_75t_R)
+     1    2.72                           swerv/ifu/bp/btb_bank2_rd_data_way1_f2_in[14] (net)
+                 45.83    0.66 9354.93 v swerv/ifu/bp/btb_bank2_way1_data_out/genblock_dff/_67_/D (DFFASRHQNx1_ASAP7_75t_R)
+                               9354.93   data arrival time
+
+                  0.00 2500.00 2500.00   clock core_clock (rise edge)
+                          0.00 2500.00   clock network delay (ideal)
+                          0.00 2500.00   clock reconvergence pessimism
+                               2500.00 ^ swerv/ifu/bp/btb_bank2_way1_data_out/genblock_dff/_67_/CLK (DFFASRHQNx1_ASAP7_75t_R)
+                         -8.60 2491.40   library setup time
+                               2491.40   data required time
+-----------------------------------------------------------------------------
+                               2491.40   data required time
+                               -9354.93   data arrival time
+-----------------------------------------------------------------------------
+                               -6863.53   slack (VIOLATED)
+
+
+
+==========================================================================
+global place report_checks -unconstrained
+--------------------------------------------------------------------------
+Startpoint: rst_l (input port clocked by core_clock)
+Endpoint: swerv/lsu/bus_intf/bus_buffer/lsu_axi_rready_ff/_3_
+          (recovery check against rising-edge clock core_clock)
+Path Group: **async_default**
+Path Type: max
+
+Fanout     Cap    Slew   Delay    Time   Description
+-----------------------------------------------------------------------------
+                  0.00    0.00    0.00   clock core_clock (rise edge)
+                          0.00    0.00   clock network delay (ideal)
+                        250.00  250.00 ^ input external delay
+                  0.00    0.00  250.00 ^ rst_l (in)
+     9   84.08                           rst_l (net)
+               1431.56  451.61  701.61 ^ swerv/_117_/B (OA21x2_ASAP7_75t_R)
+               59238.05 6279.99 6981.60 ^ swerv/_117_/Y (OA21x2_ASAP7_75t_R)
+ 13904 19128.18                           core_rst_l (net)
+               221357.09 71209.21 78190.81 ^ swerv/lsu/bus_intf/bus_buffer/lsu_axi_rready_ff/_3_/SETN (DFFASRHQNx1_ASAP7_75t_R)
+                               78190.81   data arrival time
+
+                  0.00 2500.00 2500.00   clock core_clock (rise edge)
+                          0.00 2500.00   clock network delay (ideal)
+                          0.00 2500.00   clock reconvergence pessimism
+                               2500.00 ^ swerv/lsu/bus_intf/bus_buffer/lsu_axi_rready_ff/_3_/CLK (DFFASRHQNx1_ASAP7_75t_R)
+                       -21842.06 -19342.06   library recovery time
+                               -19342.06   data required time
+-----------------------------------------------------------------------------
+                               -19342.06   data required time
+                               -78190.81   data arrival time
+-----------------------------------------------------------------------------
+                               -97532.87   slack (VIOLATED)
+
+
+Startpoint: swerv/dec/tlu/freeff/_19_
+            (rising edge-triggered flip-flop clocked by core_clock)
+Endpoint: swerv/ifu/bp/btb_bank2_way1_data_out/genblock_dff/_67_
+          (rising edge-triggered flip-flop clocked by core_clock)
+Path Group: core_clock
+Path Type: max
+
+Fanout     Cap    Slew   Delay    Time   Description
+-----------------------------------------------------------------------------
+                  0.00    0.00    0.00   clock core_clock (rise edge)
+                          0.00    0.00   clock network delay (ideal)
+                  0.00    0.00    0.00 ^ swerv/dec/tlu/freeff/_19_/CLK (DFFASRHQNx1_ASAP7_75t_R)
+                 21.74   41.09   41.09 ^ swerv/dec/tlu/freeff/_19_/QN (DFFASRHQNx1_ASAP7_75t_R)
+     1    1.97                           swerv/dec/tlu/freeff/_03_ (net)
+                 21.74    0.00   41.10 ^ swerv/dec/tlu/freeff/_12_/A (INVx3_ASAP7_75t_R)
+                219.37   50.92   92.02 v swerv/dec/tlu/freeff/_12_/Y (INVx3_ASAP7_75t_R)
+    66  117.69                           swerv/dec_tlu_flush_lower_wb (net)
+                541.03  168.33  260.35 v swerv/lsu/bus_intf/_1948_/A (INVx1_ASAP7_75t_R)
+                 57.86   40.66  301.01 ^ swerv/lsu/bus_intf/_1948_/Y (INVx1_ASAP7_75t_R)
+     1    0.63                           swerv/lsu/bus_intf/_1536_ (net)
+                 57.86    0.00  301.01 ^ swerv/lsu/bus_intf/_1949_/B (AND3x1_ASAP7_75t_R)
+               1190.91  203.84  504.85 ^ swerv/lsu/bus_intf/_1949_/Y (AND3x1_ASAP7_75t_R)
+    38  155.55                           lsu_freeze_dc3 (net)
+               1909.03  508.68 1013.53 ^ swerv/exu/_3182_/A (NOR2x1_ASAP7_75t_R)
+                232.80  174.73 1188.26 v swerv/exu/_3182_/Y (NOR2x1_ASAP7_75t_R)
+     2    1.63                           swerv/exu_flush_upper_e2 (net)
+                232.80    0.00 1188.27 v swerv/exu/_3183_/B (OR2x2_ASAP7_75t_R)
+                401.54  106.08 1294.35 v swerv/exu/_3183_/Y (OR2x2_ASAP7_75t_R)
+    97  124.22                           swerv/exu_flush_final (net)
+                817.84  244.93 1539.28 v swerv/ifu/ifc/_381_/A (INVx2_ASAP7_75t_R)
+                372.18  276.18 1815.45 ^ swerv/ifu/ifc/_381_/Y (INVx2_ASAP7_75t_R)
+    46   44.14                           swerv/ifu/ifc/_032_ (net)
+                373.24   11.63 1827.08 ^ swerv/ifu/ifc/_531_/A1 (AO21x1_ASAP7_75t_R)
+                132.10   73.64 1900.72 ^ swerv/ifu/ifc/_531_/Y (AO21x1_ASAP7_75t_R)
+     9   19.74                           swerv/ifu/ifc_fetch_addr_f1[8] (net)
+                132.52    4.56 1905.27 ^ swerv/ifu/bp/f1hash/_4_/B (XNOR2x1_ASAP7_75t_R)
+                 29.52   23.00 1928.28 v swerv/ifu/bp/f1hash/_4_/Y (XNOR2x1_ASAP7_75t_R)
+     1    1.72                           swerv/ifu/bp/f1hash/_0_ (net)
+                 29.52    0.02 1928.30 v swerv/ifu/bp/f1hash/_5_/B (XNOR2x1_ASAP7_75t_R)
+               4441.46 1446.74 3375.04 ^ swerv/ifu/bp/f1hash/_5_/Y (XNOR2x1_ASAP7_75t_R)
+   628  592.03                           swerv/ifu/bp/btb_rd_addr_f1[4] (net)
+               4724.09  597.29 3972.32 ^ swerv/ifu/bp/_4517_/A (INVx1_ASAP7_75t_R)
+               1660.33 5031.57 9003.89 v swerv/ifu/bp/_4517_/Y (INVx1_ASAP7_75t_R)
+   208  207.09                           swerv/ifu/bp/_0446_ (net)
+               1660.33  159.07 9162.96 v swerv/ifu/bp/_5827_/A1 (AO21x1_ASAP7_75t_R)
+                 30.95  165.42 9328.38 v swerv/ifu/bp/_5827_/Y (AO21x1_ASAP7_75t_R)
+     1    0.71                           swerv/ifu/bp/_1586_ (net)
+                 30.95    0.01 9328.38 v swerv/ifu/bp/_5833_/A2 (OA21x2_ASAP7_75t_R)
+                 45.78   25.88 9354.27 v swerv/ifu/bp/_5833_/Y (OA21x2_ASAP7_75t_R)
+     1    2.72                           swerv/ifu/bp/btb_bank2_rd_data_way1_f2_in[14] (net)
+                 45.83    0.66 9354.93 v swerv/ifu/bp/btb_bank2_way1_data_out/genblock_dff/_67_/D (DFFASRHQNx1_ASAP7_75t_R)
+                               9354.93   data arrival time
+
+                  0.00 2500.00 2500.00   clock core_clock (rise edge)
+                          0.00 2500.00   clock network delay (ideal)
+                          0.00 2500.00   clock reconvergence pessimism
+                               2500.00 ^ swerv/ifu/bp/btb_bank2_way1_data_out/genblock_dff/_67_/CLK (DFFASRHQNx1_ASAP7_75t_R)
+                         -8.60 2491.40   library setup time
+                               2491.40   data required time
+-----------------------------------------------------------------------------
+                               2491.40   data required time
+                               -9354.93   data arrival time
+-----------------------------------------------------------------------------
+                               -6863.53   slack (VIOLATED)
+
+
+
+==========================================================================
+global place report_power
+--------------------------------------------------------------------------
+Group                  Internal  Switching    Leakage      Total
+                          Power      Power      Power      Power (Watts)
+----------------------------------------------------------------
+Sequential             6.66e-02   5.81e-04   1.71e-06   6.71e-02  55.9%
+Combinational          4.03e-02   9.11e-03   3.62e-03   5.30e-02  44.1%
+Macro                  0.00e+00   0.00e+00   0.00e+00   0.00e+00   0.0%
+Pad                    0.00e+00   0.00e+00   0.00e+00   0.00e+00   0.0%
+----------------------------------------------------------------
+Total                  1.07e-01   9.69e-03   3.62e-03   1.20e-01 100.0%
+                          88.9%       8.1%       3.0%
+
+==========================================================================
+global place report_design_area
+--------------------------------------------------------------------------
+Design area 43548 u^2 14% utilization.
+
+Elapsed time: 14:10.18[h:]min:sec. CPU time: user 845.22 sys 2.16 (99%). Peak memory: 2755044KB.
