@@ -38,6 +38,8 @@
 ### Improvement in the Placement Stage timing
 ![image](https://user-images.githubusercontent.com/58599984/228339817-daa6aee9-70d0-46d2-8ded-62c77061b3eb.png)
 
+## Results
+Thus, we have obtained considerable improvement in the timings.
 # Acknowledgement
 1. OpenROAD Team
 2. VSD and team
