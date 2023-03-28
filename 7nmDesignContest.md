@@ -1,9 +1,19 @@
 # The OpenROAD 7nm Physical Design Contest
-
+## Machine specifications
+![image](https://user-images.githubusercontent.com/58599984/228325923-3019c0ab-cfc3-4a31-a623-b8bd8680f7fb.png)
+## Steps followed:
+1. Build and install using ```./build_openroad.sh```
+2. Comment the ibex/config.mk and gcd/config.mk in the makefile at OpenROAD-flow-scripts/flow folder
+  ![image](https://user-images.githubusercontent.com/58599984/228327031-cf9a1bd6-083f-421e-bc1e-d17425440b0d.png)
+3. Run ```make place```
+4. Note the timings from the logs
+5. Change the C code in the OpenROAD-flow-scripts/tools/OpenROAD/tools
+6. Repeat from **Step 1** again
+## Run Time of Place Stage without any changes
+![image](https://user-images.githubusercontent.com/58599984/228294893-6f5bfca1-6386-42da-9984-0972c6a86e2b.png)
 ## Changes made in the gpuSolver.cu
 ![image](https://user-images.githubusercontent.com/58599984/228294648-7c1df1da-ca05-454f-8cf7-8aec489ac4b5.png)
-## Run Time of Place Stage before the changes were made
-![image](https://user-images.githubusercontent.com/58599984/228294893-6f5bfca1-6386-42da-9984-0972c6a86e2b.png)
+
 
 ### Improvement in the Place Stage timing
 ![image](https://user-images.githubusercontent.com/58599984/228300190-5390745f-affb-45b8-99f0-7465afaf3bba.png)
@@ -13,4 +23,11 @@
 
 ### Improvement in the Place Stage timing
 ![image](https://user-images.githubusercontent.com/58599984/228318784-6d66e01f-953c-4f8b-95b7-022c0f16a582.png)
+
+## Changes made in solver.cpp
+![image](https://user-images.githubusercontent.com/58599984/228325081-43e003e6-9736-45f6-b080-5c2b6200bb3b.png)
+
+### Improvement in the Place Stage timing
+![image](https://user-images.githubusercontent.com/58599984/228324932-738966d1-c5aa-481c-849c-eb550c3a912e.png)
+
 
