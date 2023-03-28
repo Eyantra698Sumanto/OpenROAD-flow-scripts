@@ -2,6 +2,7 @@
 ![image](https://user-images.githubusercontent.com/58599984/228327823-912ba30d-0127-468c-af0b-c41706387346.png)
 ## Design Name: Ibex
 ## Literature Survey Report: https://github.com/Eyantra698Sumanto/OpenROAD-flow-scripts/blob/master/literature-survey.pdf
+## Final Report: https://github.com/Eyantra698Sumanto/OpenROAD-flow-scripts/blob/7nmcontest/final-report.pdf
 ## Machine specifications
 ![image](https://user-images.githubusercontent.com/58599984/228325923-3019c0ab-cfc3-4a31-a623-b8bd8680f7fb.png)
 ## Important Links 
