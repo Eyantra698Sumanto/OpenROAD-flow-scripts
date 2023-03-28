@@ -1,9 +1,10 @@
 # The OpenROAD 7nm Physical Design Contest
 ![image](https://user-images.githubusercontent.com/58599984/228327823-912ba30d-0127-468c-af0b-c41706387346.png)
-
+## Design Name: Ibex
 ## Machine specifications
 ![image](https://user-images.githubusercontent.com/58599984/228325923-3019c0ab-cfc3-4a31-a623-b8bd8680f7fb.png)
 ## Steps followed:
+### Note: Logs link:(https://github.com/Eyantra698Sumanto/OpenROAD-flow-scripts/tree/7nmcontest/flow/oldlog/asap7/ibex/base)
 1. Build and install using ```./build_openroad.sh```
 2. Comment the ibex/config.mk and gcd/config.mk in the makefile at OpenROAD-flow-scripts/flow folder
   ![image](https://user-images.githubusercontent.com/58599984/228327031-cf9a1bd6-083f-421e-bc1e-d17425440b0d.png)
