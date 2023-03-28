@@ -67,7 +67,7 @@
 # DESIGN_CONFIG=./designs/sky130hs/riscv32i/config.mk
 
 # DESIGN_CONFIG=./designs/asap7/gcd/config.mk
-# DESIGN_CONFIG=./designs/asap7/ibex/config.mk
+ DESIGN_CONFIG=./designs/asap7/ibex/config.mk
 # DESIGN_CONFIG=./designs/asap7/aes/config.mk
 # DESIGN_CONFIG=./designs/asap7/jpeg/config.mk
 # DESIGN_CONFIG=./designs/asap7/ethmac/config.mk
@@ -82,7 +82,7 @@
 # DESIGN_CONFIG=./designs/gf180/aes/config.mk
 #
 # Default design
-DESIGN_CONFIG ?= ./designs/nangate45/gcd/config.mk
+# DESIGN_CONFIG ?= ./designs/nangate45/gcd/config.mk
 
 # If we are running headless use offscreen rendering for save_image
 ifndef DISPLAY
