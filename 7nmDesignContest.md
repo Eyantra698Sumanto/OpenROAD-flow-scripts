@@ -1,4 +1,6 @@
 # The OpenROAD 7nm Physical Design Contest
+![image](https://user-images.githubusercontent.com/58599984/228327823-912ba30d-0127-468c-af0b-c41706387346.png)
+
 ## Machine specifications
 ![image](https://user-images.githubusercontent.com/58599984/228325923-3019c0ab-cfc3-4a31-a623-b8bd8680f7fb.png)
 ## Steps followed:
@@ -30,4 +32,6 @@
 ### Improvement in the Place Stage timing
 ![image](https://user-images.githubusercontent.com/58599984/228324932-738966d1-c5aa-481c-849c-eb550c3a912e.png)
 
-
+# Acknowledgement
+1. OpenROAD Team
+2. VSD and team
