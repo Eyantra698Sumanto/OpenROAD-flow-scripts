@@ -35,7 +35,7 @@
 ## Changes made in fftsg.cpp
 ![image](https://user-images.githubusercontent.com/58599984/228340068-a972819b-7efd-45c1-8b33-170c0901b5f5.png)
 
-## Improvement in the Placement Stage timing
+### Improvement in the Placement Stage timing
 ![image](https://user-images.githubusercontent.com/58599984/228339817-daa6aee9-70d0-46d2-8ded-62c77061b3eb.png)
 
 # Acknowledgement
